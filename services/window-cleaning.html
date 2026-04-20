@@ -259,6 +259,77 @@
     }
     .nav-ctas .btn-nav-book:hover { background: var(--navy-light); transform: translateY(-1px); }
 
+    /* DROPDOWN SYSTEM */
+    .nav-links .dropdown { position: relative; }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background: var(--white);
+      min-width: 220px;
+      box-shadow: var(--shadow-md);
+      border-radius: var(--radius-sm);
+      z-index: 1001;
+      top: 100%;
+      left: 0;
+      padding: 10px 0;
+      border: 1px solid rgba(0,0,0,0.05);
+    }
+    .dropdown-content a {
+      color: var(--text-dark) !important;
+      padding: 12px 20px !important;
+      display: block !important;
+      font-size: 0.85rem !important;
+      font-weight: 600 !important;
+      transition: all var(--transition) !important;
+    }
+    .dropdown-content a:hover { background: var(--gray-light) !important; color: var(--cyan) !important; }
+    .dropdown-content a::after { display: none !important; }
+    .dropdown:hover .dropdown-content { display: block; }
+
+    /* MOBILE NAV TOGGLE */
+    .mobile-nav-toggle {
+      display: none;
+      background: none;
+      border: none;
+      font-size: 1.8rem;
+      color: var(--navy-dark);
+      cursor: pointer;
+      z-index: 1002;
+    }
+
+    /* MOBILE DRAWER */
+    .mobile-drawer {
+      position: fixed;
+      inset: 0;
+      background: rgba(14, 30, 56, 0.95);
+      backdrop-filter: blur(10px);
+      z-index: 1001;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      transform: translateX(100%);
+      transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+    .mobile-drawer.active { transform: translateX(0); }
+    .mobile-drawer a {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--white);
+      transition: color var(--transition);
+    }
+    .mobile-drawer a:hover { color: var(--cyan); }
+    .drawer-close {
+      position: absolute;
+      top: 24px;
+      right: 24px;
+      color: var(--white);
+      font-size: 2.5rem;
+      cursor: pointer;
+    }
+
     /* ── HERO ── */
     #hero {
       position: relative;
@@ -1381,10 +1452,22 @@
       </div>
       <div class="nav-ctas">
         <a href="../index.html#why-us" id="nav-get-quote" class="btn-nav-quote">Get a Quote</a>
-        <a href="tel:+16132924294" id="nav-book-online" class="btn-nav-book">Book Online</a>
+        <button class="mobile-nav-toggle" id="menu-toggle" aria-label="Open Menu">≡</button>
       </div>
     </div>
   </nav>
+
+  <!-- MOBILE DRAWER OVERLAY -->
+  <div class="mobile-drawer" id="mobile-drawer">
+    <div class="drawer-close" id="drawer-close">&times;</div>
+    <a href="../index.html" class="drawer-link">Home</a>
+    <a href="about.html" class="drawer-link">About Us</a>
+    <a href="window-cleaning.html" class="drawer-link">Window Cleaning</a>
+    <a href="gutter-cleaning.html" class="drawer-link">Gutter Cleaning</a>
+    <a href="siding-cleaning.html" class="drawer-link">Siding Cleaning</a>
+    <a href="pressure-washing.html" class="drawer-link">Pressure Washing</a>
+    <a href="../index.html#map-section" class="drawer-link">Contact</a>
+  </div>
 
   
 
@@ -1730,8 +1813,8 @@
           <nav class="footer-links" aria-label="Footer navigation">
             <a href="../index.html" id="footer-home">Home</a>
             <a href="about.html" id="footer-about">About Us</a>
-            <a href="#" id="footer-gallery">Gallery</a>
-            <a href="#" id="footer-reviews">Reviews</a>
+            <a href="../index.html#gallery" id="footer-gallery">Gallery</a>
+            <a href="../index.html#reviews" id="footer-reviews">Reviews</a>
             <a href="../index.html#map-section" id="footer-contact">Contact</a>
           </nav>
         </div>
@@ -1806,6 +1889,35 @@
     });
 
     // ── Navbar scroll shadow enhancement ──
+  <script>
+    // ── Mobile Menu Toggle ──
+    const menuToggle = document.getElementById('menu-toggle');
+    const drawerClose = document.getElementById('drawer-close');
+    const mobileDrawer = document.getElementById('mobile-drawer');
+    const drawerLinks = document.querySelectorAll('.drawer-link');
+
+    if (menuToggle && mobileDrawer) {
+      menuToggle.addEventListener('click', () => {
+        mobileDrawer.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      });
+    }
+
+    if (drawerClose && mobileDrawer) {
+      drawerClose.addEventListener('click', () => {
+        mobileDrawer.classList.remove('active');
+        document.body.style.overflow = '';
+      });
+    }
+
+    drawerLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        mobileDrawer.classList.remove('active');
+        document.body.style.overflow = '';
+      });
+    });
+
+    // ── FAQ Accordion ──
     window.addEventListener('scroll', function() {
       var navbar = document.getElementById('navbar');
       if (window.scrollY > 20) {
