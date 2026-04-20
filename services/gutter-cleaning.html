@@ -413,8 +413,12 @@
     }
     .areas-note strong { color: var(--cyan); }
 
+    @media (max-width: 1100px) {
+      .nav-links { gap: 20px; }
+    }
     @media (max-width: 1024px) {
       .areas-grid { grid-template-columns: repeat(3, 1fr); }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
     }
     @media (max-width: 768px) {
       .areas-grid { grid-template-columns: repeat(2, 1fr); }
@@ -470,18 +474,7 @@
 </head>
 <body>
 
-  <!-- TOP BAR -->
-  <div id="top-bar">
-    <div class="container">
-      <div class="contact-links">
-        <a href="tel:+16132924294"><span class="icon-phone"></span> +1 613-292-4294</a>
-        <a href="mailto:info@magicpro.ca"><span class="icon-mail"></span> info@magicpro.ca</a>
-      </div>
-      <div class="socials">
-        <a href="#">f</a> <a href="#">𝕏</a> <a href="#">◎</a>
-      </div>
-    </div>
-  </div>
+
 
   <!-- NAVIGATION -->
   <nav id="navbar">
@@ -753,38 +746,72 @@
     </div>
   </section>
 
+  <!-- FOOTER -->
   <footer id="footer">
     <div class="container">
       <div class="footer-grid">
+        <!-- Brand Section -->
         <div>
-          <img src="../Magic-Pro-Logo-New-1024x665.png" alt="MagicPro" style="height: 40px; margin-bottom: 20px; filter: brightness(0) invert(1);" />
-          <p class="footer-desc">Professional gutter cleaning, window cleaning, and property exterior maintenance across Ottawa.</p>
+          <div class="footer-logo">
+            <img src="../Magic-Pro-Logo-New-1024x665.png" alt="MagicPro logo" style="height: 50px; width: auto;" />
+          </div>
+          <p class="footer-desc">
+            MagicPro is Ottawa's trusted cleaning service for windows, gutters, siding, and pressure washing. Locally owned, fully insured, and dedicated to your 100% satisfaction.
+          </p>
+          <div class="footer-socials">
+            <a href="#" class="social-btn" aria-label="Facebook">f</a>
+            <a href="#" class="social-btn" aria-label="Twitter">𝕏</a>
+            <a href="#" class="social-btn" aria-label="Instagram">◎</a>
+          </div>
         </div>
+        <!-- Quick Links -->
         <div>
-          <div class="footer-col-title">Services</div>
-          <div class="footer-links">
+          <div class="footer-col-title">Quick Links</div>
+          <nav class="footer-links">
+            <a href="../index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="../index.html#gallery">Gallery</a>
+            <a href="../index.html#reviews">Reviews</a>
+            <a href="../index.html#map-section">Contact</a>
+          </nav>
+        </div>
+        <!-- Services -->
+        <div>
+          <div class="footer-col-title">Our Services</div>
+          <nav class="footer-links">
             <a href="window-cleaning.html">Window Cleaning</a>
             <a href="gutter-cleaning.html">Gutter Cleaning</a>
             <a href="siding-cleaning.html">Siding Cleaning</a>
             <a href="pressure-washing.html">Pressure Washing</a>
-          </div>
+          </nav>
         </div>
+        <!-- Contact -->
         <div>
-          <div class="footer-col-title">Company</div>
-          <div class="footer-links">
-            <a href="about.html">About Us</a>
-            <a href="../index.html#map-section">Contact</a>
-            <a href="../index.html#why-us">Get a Quote</a>
+          <div class="footer-col-title">Get In Touch</div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon">📍</div>
+            <div>611-230 Woodridge Cres, Nepean, Ottawa, ON K2B 8G2</div>
           </div>
-        </div>
-        <div>
-          <div class="footer-col-title">Contact</div>
-          <div class="footer-contact-item"><div class="footer-contact-icon">📞</div> <a href="tel:+16132924294">+1 613-292-4294</a></div>
-          <div class="footer-contact-item"><div class="footer-contact-icon">✉️</div> <a href="mailto:info@magicpro.ca">info@magicpro.ca</a></div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon">📞</div>
+            <div><a href="tel:+16132924294">+1 613-292-4294</a></div>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon">✉️</div>
+            <div><a href="mailto:info@magicpro.ca">info@magicpro.ca</a></div>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon">🕐</div>
+            <div>Mon - Sun: 7:00 AM - 8:00 PM</div>
+          </div>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>© 2026 MagicPro Window Cleaning.</p>
+        <p>© 2026 MagicPro Window Cleaning. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
       </div>
     </div>
   </footer>

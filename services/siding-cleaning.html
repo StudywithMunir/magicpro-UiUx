@@ -135,6 +135,46 @@
     .dropdown-content a::after { display: none !important; }
     .dropdown:hover .dropdown-content { display: block; }
 
+    /* MOBILE DRAWER */
+    .mobile-drawer {
+      position: fixed;
+      top: 0;
+      right: -100%;
+      width: 85%;
+      max-width: 350px;
+      height: 100%;
+      background: var(--navy-dark);
+      z-index: 2000;
+      padding: 80px 40px;
+      transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      box-shadow: -10px 0 30px rgba(0,0,0,0.3);
+    }
+    .mobile-drawer.active { right: 0; }
+    .drawer-close { position: absolute; top: 24px; right: 24px; font-size: 2rem; color: var(--white); cursor: pointer; }
+    .drawer-link { color: var(--white); font-size: 1.2rem; font-weight: 700; font-family: 'Outfit', sans-serif; transition: color 0.3s; }
+    .drawer-link:hover { color: var(--cyan); }
+
+    /* Responsive Adjustments */
+    @media (max-width: 1100px) {
+      .nav-links { gap: 24px; }
+    }
+    @media (max-width: 1024px) {
+      .nav-links { display: none; }
+      .nav-inner { padding: 12px 24px; }
+      .mobile-nav-toggle { display: block; background: none; border: none; font-size: 2rem; color: var(--navy-dark); cursor: pointer; }
+    }
+    @media (max-width: 768px) {
+      .footer-grid { grid-template-columns: 1fr; gap: 40px; }
+      .footer-brand { text-align: center; }
+      .footer-socials { justify-content: center; }
+      .footer-contact-item { justify-content: center; }
+      .footer-col-title { text-align: center; }
+      .footer-links { align-items: center; }
+    }
+
     /* Hero */
     #sub-hero { position: relative; background: url('../Magic Pro Window Cleaning Images/17-0A4A0247.jpg') center/cover no-repeat; padding: 140px 0 100px; color: var(--white); text-align: center; }
     #sub-hero::before { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(14,30,56,0.92) 0%, rgba(0,180,216,0.85) 100%); z-index: 1; }
@@ -342,24 +382,13 @@
 </head>
 <body>
 
-  <!-- TOP BAR -->
-  <div id="top-bar">
-    <div class="container">
-      <div class="contact-links">
-        <a href="tel:+16132924294">📞 +1 613-292-4294</a>
-        <a href="mailto:info@magicpro.ca">✉️ info@magicpro.ca</a>
-      </div>
-      <div class="socials">
-        <a href="#">f</a> <a href="#">𝕏</a> <a href="#">◎</a>
-      </div>
-    </div>
-  </div>
+
 
   <!-- NAVIGATION -->
   <nav id="navbar">
     <div class="nav-inner">
       <a href="../index.html" class="nav-logo">
-        <img src="../Magic-Pro-Logo-New-1024x665.png" alt="MagicPro Logo" style="height: 52px;" />
+        <img src="../Magic-Pro-Logo-New-1024x665.png" alt="MagicPro Logo" style="height: 52px; width: auto;" />
       </a>
       <div class="nav-links">
         <a href="../index.html">Home</a>
@@ -373,13 +402,13 @@
             <a href="pressure-washing.html">Pressure Washing</a>
           </div>
         </div>
-        <a href="#">Gallery</a>
-        <a href="#">Reviews</a>
-        <a href="#">Contact</a>
+        <a href="../index.html#gallery">Gallery</a>
+        <a href="../index.html#reviews">Reviews</a>
+        <a href="../index.html#map-section">Contact</a>
       </div>
       <div class="nav-ctas">
         <a href="../index.html#why-us" class="btn-nav-quote">Get a Quote</a>
-        <button class="mobile-nav-toggle" id="menu-toggle" aria-label="Open Menu">≡</button>
+        <button class="mobile-nav-toggle" id="menu-toggle" aria-label="Open Menu" style="display: none;">≡</button>
       </div>
     </div>
   </nav>
@@ -590,40 +619,58 @@
     </div>
   </section>
 
+  <!-- FOOTER -->
   <footer id="footer">
     <div class="container">
       <div class="footer-grid">
-        <div>
-          <img src="../Magic-Pro-Logo-New-1024x665.png" alt="MagicPro" style="height: 40px; margin-bottom: 20px; filter: brightness(0) invert(1);" />
-          <p class="footer-desc">Professional siding cleaning, window cleaning, and property exterior maintenance across Ottawa.</p>
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <img src="../Magic-Pro-Logo-New-1024x665.png" alt="MagicPro logo" style="height: 50px; width: auto; filter: brightness(0) invert(1);" />
+          </div>
+          <p class="footer-desc">Ottawa's premier exterior cleaning specialists. 24+ years of combined experience delivering diamond-standard results for homes and businesses.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-btn">f</a>
+            <a href="#" class="social-btn">𝕏</a>
+            <a href="#" class="social-btn">◎</a>
+          </div>
         </div>
         <div>
           <div class="footer-col-title">Services</div>
-          <div class="footer-links">
+          <nav class="footer-links">
             <a href="window-cleaning.html">Window Cleaning</a>
             <a href="gutter-cleaning.html">Gutter Cleaning</a>
             <a href="siding-cleaning.html">Siding Cleaning</a>
             <a href="pressure-washing.html">Pressure Washing</a>
-          </div>
-        </div>
-        <div>
-          <div class="footer-col-title">Quick Links</div>
-          <nav class="footer-links" aria-label="Footer navigation">
-            <a href="../index.html" id="footer-home">Home</a>
-            <a href="about.html" id="footer-about">About Us</a>
-            <a href="../index.html#gallery" id="footer-gallery">Gallery</a>
-            <a href="../index.html#reviews" id="footer-reviews">Reviews</a>
-            <a href="../index.html#map-section" id="footer-contact">Contact</a>
           </nav>
         </div>
         <div>
-          <div class="footer-col-title">Contact</div>
-          <div class="footer-contact-item"><div class="footer-contact-icon">📞</div> <a href="tel:+16132924294">+1 613-292-4294</a></div>
-          <div class="footer-contact-item"><div class="footer-contact-icon">✉️</div> <a href="mailto:info@magicpro.ca">info@magicpro.ca</a></div>
+          <div class="footer-col-title">Company</div>
+          <nav class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="../index.html#why-us">Why Choose Us</a>
+            <a href="../index.html#testimonials">Testimonials</a>
+            <a href="../index.html#map-section">Contact</a>
+          </nav>
+        </div>
+        <div>
+          <div class="footer-col-title">Contact Us</div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon">📞</div>
+            <a href="tel:+16132924294">+1 613-292-4294</a>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon">✉️</div>
+            <a href="mailto:info@magicpro.ca">info@magicpro.ca</a>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon">📍</div>
+            <span>611-230 Woodridge Cres, Nepean, ON</span>
+          </div>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>© 2026 MagicPro Window Cleaning.</p>
+        <p>© 2026 MagicPro Window Solutions. All rights reserved.</p>
+        <p>Expert Exterior Cleaning in Ottawa, ON.</p>
       </div>
     </div>
   </footer>

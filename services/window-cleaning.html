@@ -204,7 +204,7 @@
       max-width: 1200px;
       margin: 0 auto;
     }
-    .nav-logo { align-items: center; justify-content: center;
+    .nav-logo {
       display: flex;
       align-items: center;
       gap: 10px;
@@ -1412,33 +1412,19 @@
 <body>
 
 
-  <!-- TOP BAR -->
-  <div id="top-bar" aria-label="Contact information bar">
-    <div class="container">
-      <div class="contact-links">
-        <a href="tel:+16132924294" id="topbar-phone"><span class="icon-phone"></span> +1 613-292-4294</a>
-        <a href="mailto:info@magicpro.ca" id="topbar-email"><span class="icon-mail"></span> info@magicpro.ca</a>
-        <span class="trust-item"><span class="icon-clock"></span> Mon-Sun: 7 AM - 8 PM</span>
-      </div>
-      <div class="socials" aria-label="Social media links">
-        <a href="#" id="topbar-facebook" aria-label="Facebook">f</a>
-        <a href="#" id="topbar-twitter" aria-label="Twitter">𝕏</a>
-        <a href="#" id="topbar-instagram" aria-label="Instagram">◎</a>
-      </div>
-    </div>
-  </div>
+
 
   <!-- NAVIGATION -->
-  <nav id="navbar" role="navigation" aria-label="Main navigation">
+  <nav id="navbar">
     <div class="nav-inner">
-      <a href="../index.html" class="nav-logo" id="nav-logo" aria-label="MagicPro Home">
-        <img src="../Magic-Pro-Logo-New-1024x665.png" alt="MagicPro Window Cleaning" style="height: 52px; width: auto; display: block;" />
+      <a href="../index.html" class="nav-logo">
+        <img src="../Magic-Pro-Logo-New-1024x665.png" alt="MagicPro Logo" style="height: 52px; width: auto;" />
       </a>
-      <div class="nav-links" role="menubar">
-        <a href="../index.html" id="nav-home" role="menuitem">Home</a>
-        <a href="about.html" id="nav-about" role="menuitem">About Us</a>
+      <div class="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About Us</a>
         <div class="dropdown">
-          <a href="#" class="active" id="nav-services" role="menuitem">Services <span style="font-size: 0.7rem; vertical-align: middle;">▼</span></a>
+          <a href="#" class="active">Services <span style="font-size: 0.7rem; vertical-align: middle;">▼</span></a>
           <div class="dropdown-content">
             <a href="window-cleaning.html">Window Cleaning</a>
             <a href="gutter-cleaning.html">Gutter Cleaning</a>
@@ -1446,12 +1432,12 @@
             <a href="pressure-washing.html">Pressure Washing</a>
           </div>
         </div>
-        <a href="#" id="nav-gallery" role="menuitem">Gallery</a>
-        <a href="#" id="nav-reviews" role="menuitem">Reviews</a>
-        <a href="#" id="nav-contact" role="menuitem">Contact</a>
+        <a href="../index.html#gallery">Gallery</a>
+        <a href="../index.html#reviews">Reviews</a>
+        <a href="../index.html#map-section">Contact</a>
       </div>
       <div class="nav-ctas">
-        <a href="../index.html#why-us" id="nav-get-quote" class="btn-nav-quote">Get a Quote</a>
+        <a href="../index.html#why-us" class="btn-nav-quote">Get a Quote</a>
         <button class="mobile-nav-toggle" id="menu-toggle" aria-label="Open Menu">≡</button>
       </div>
     </div>
@@ -1790,42 +1776,42 @@
   </section>
 
   <!-- FOOTER -->
-  <footer id="footer" role="contentinfo">
+  <footer id="footer">
     <div class="container">
       <div class="footer-grid">
-        <!-- Brand -->
-        <div class="footer-brand">
-          <div class="nav-logo" style="margin-bottom: 24px; padding: 12px 18px; background: rgba(255,255,255,0.06); border-radius: 12px; display: inline-block;">
-            <img src="../Magic-Pro-Logo-New-1024x665.png" alt="MagicPro Window Cleaning" style="height: 56px; width: auto; display: block;" />
+        <!-- Brand Section -->
+        <div>
+          <div class="footer-logo">
+            <img src="../Magic-Pro-Logo-New-1024x665.png" alt="MagicPro logo" style="height: 50px; width: auto;" />
           </div>
           <p class="footer-desc">
             MagicPro is Ottawa's trusted cleaning service for windows, gutters, siding, and pressure washing. Locally owned, fully insured, and dedicated to your 100% satisfaction.
           </p>
           <div class="footer-socials">
-            <a href="#" class="social-btn" id="footer-fb" aria-label="Facebook">f</a>
-            <a href="#" class="social-btn" id="footer-tw" aria-label="Twitter">𝕏</a>
-            <a href="#" class="social-btn" id="footer-ig" aria-label="Instagram">◎</a>
+            <a href="#" class="social-btn" aria-label="Facebook">f</a>
+            <a href="#" class="social-btn" aria-label="Twitter">𝕏</a>
+            <a href="#" class="social-btn" aria-label="Instagram">◎</a>
           </div>
         </div>
         <!-- Quick Links -->
         <div>
           <div class="footer-col-title">Quick Links</div>
-          <nav class="footer-links" aria-label="Footer navigation">
-            <a href="../index.html" id="footer-home">Home</a>
-            <a href="about.html" id="footer-about">About Us</a>
-            <a href="../index.html#gallery" id="footer-gallery">Gallery</a>
-            <a href="../index.html#reviews" id="footer-reviews">Reviews</a>
-            <a href="../index.html#map-section" id="footer-contact">Contact</a>
+          <nav class="footer-links">
+            <a href="../index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="../index.html#gallery">Gallery</a>
+            <a href="../index.html#reviews">Reviews</a>
+            <a href="../index.html#map-section">Contact</a>
           </nav>
         </div>
         <!-- Services -->
         <div>
           <div class="footer-col-title">Our Services</div>
-          <nav class="footer-links" aria-label="Services navigation">
-            <a href="window-cleaning.html" id="footer-window">Window Cleaning</a>
-            <a href="gutter-cleaning.html" id="footer-gutter">Gutter Cleaning</a>
-            <a href="siding-cleaning.html" id="footer-siding">Siding Cleaning</a>
-            <a href="pressure-washing.html" id="footer-pressure">Pressure Washing</a>
+          <nav class="footer-links">
+            <a href="window-cleaning.html">Window Cleaning</a>
+            <a href="gutter-cleaning.html">Gutter Cleaning</a>
+            <a href="siding-cleaning.html">Siding Cleaning</a>
+            <a href="pressure-washing.html">Pressure Washing</a>
           </nav>
         </div>
         <!-- Contact -->
@@ -1837,11 +1823,11 @@
           </div>
           <div class="footer-contact-item">
             <div class="footer-contact-icon">📞</div>
-            <div><a href="tel:+16132924294" id="footer-phone">+1 613-292-4294</a></div>
+            <div><a href="tel:+16132924294">+1 613-292-4294</a></div>
           </div>
           <div class="footer-contact-item">
             <div class="footer-contact-icon">✉️</div>
-            <div><a href="mailto:info@magicpro.ca" id="footer-email">info@magicpro.ca</a></div>
+            <div><a href="mailto:info@magicpro.ca">info@magicpro.ca</a></div>
           </div>
           <div class="footer-contact-item">
             <div class="footer-contact-icon">🕐</div>
@@ -1850,10 +1836,10 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>© 2025 MagicPro Window Cleaning. All rights reserved.</p>
+        <p>© 2026 MagicPro Window Cleaning. All rights reserved.</p>
         <div class="footer-legal">
-          <a href="#" id="footer-privacy">Privacy Policy</a>
-          <a href="#" id="footer-terms">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
         </div>
       </div>
     </div>
@@ -1888,55 +1874,81 @@
       });
     });
 
-    // ── Navbar scroll shadow enhancement ──
+    /* ── RESPONSIVE ── */
+    }
+
+    @media (max-width: 768px) {
+      .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+      .nav-links { display: none; }
+      .mobile-nav-toggle { display: block !important; }
+    }
+  </style>
+
   <script>
-    // ── Mobile Menu Toggle ──
-    const menuToggle = document.getElementById('menu-toggle');
-    const drawerClose = document.getElementById('drawer-close');
-    const mobileDrawer = document.getElementById('mobile-drawer');
-    const drawerLinks = document.querySelectorAll('.drawer-link');
+    document.addEventListener("DOMContentLoaded", () => {
+      // ── Mobile Menu Toggle ──
+      const menuToggle = document.getElementById('menu-toggle');
+      const drawerClose = document.getElementById('drawer-close');
+      const mobileDrawer = document.getElementById('mobile-drawer');
+      const drawerLinks = document.querySelectorAll('.drawer-link');
 
-    if (menuToggle && mobileDrawer) {
-      menuToggle.addEventListener('click', () => {
-        mobileDrawer.classList.add('active');
-        document.body.style.overflow = 'hidden';
-      });
-    }
-
-    if (drawerClose && mobileDrawer) {
-      drawerClose.addEventListener('click', () => {
-        mobileDrawer.classList.remove('active');
-        document.body.style.overflow = '';
-      });
-    }
-
-    drawerLinks.forEach(link => {
-      link.addEventListener('click', () => {
-        mobileDrawer.classList.remove('active');
-        document.body.style.overflow = '';
-      });
-    });
-
-    // ── FAQ Accordion ──
-    window.addEventListener('scroll', function() {
-      var navbar = document.getElementById('navbar');
-      if (window.scrollY > 20) {
-        navbar.style.boxShadow = '0 4px 30px rgba(0,0,0,0.15)';
-      } else {
-        navbar.style.boxShadow = '0 2px 20px rgba(0,0,0,0.08)';
+      if (menuToggle && mobileDrawer) {
+        menuToggle.addEventListener('click', () => {
+          mobileDrawer.classList.add('active');
+          document.body.style.overflow = 'hidden';
+        });
       }
-    });
 
-    // ── Area pills hover ──
-    document.querySelectorAll('.area-pill:not(.featured)').forEach(function(pill) {
-      pill.addEventListener('mouseenter', function() {
-        this.classList.add('hovered');
+      if (drawerClose && mobileDrawer) {
+        drawerClose.addEventListener('click', () => {
+          mobileDrawer.classList.remove('active');
+          document.body.style.overflow = '';
+        });
+      }
+
+      drawerLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          mobileDrawer.classList.remove('active');
+          document.body.style.overflow = '';
+        });
       });
-      pill.addEventListener('mouseleave', function() {
-        this.classList.remove('hovered');
+
+      // ── FAQ Accordion ──
+      document.querySelectorAll('.faq-q').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var item = this.closest('.faq-item');
+          var isOpen = item.classList.contains('open');
+          // Close all
+          document.querySelectorAll('.faq-item').forEach(function(i) {
+            i.classList.remove('open');
+            i.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
+          });
+          // Toggle clicked
+          if (!isOpen) {
+            item.classList.add('open');
+            this.setAttribute('aria-expanded', 'true');
+          }
+        });
+        // Keyboard support
+        btn.addEventListener('keydown', function(e) {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            this.click();
+          }
+        });
+      });
+
+      window.addEventListener('scroll', function() {
+        var navbar = document.getElementById('navbar');
+        if (navbar) {
+          if (window.scrollY > 20) {
+            navbar.style.boxShadow = '0 4px 30px rgba(0,0,0,0.15)';
+          } else {
+            navbar.style.boxShadow = '0 2px 20px rgba(0,0,0,0.08)';
+          }
+        }
       });
     });
-  
   </script>
 
   <script>
