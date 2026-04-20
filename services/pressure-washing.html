@@ -135,24 +135,6 @@
     .dropdown-content a::after { display: none !important; }
     .dropdown:hover .dropdown-content { display: block; }
 
-    /* MOBILE DRAWER */
-    .mobile-drawer {
-      position: fixed;
-      top: 0;
-      right: -100%;
-      width: 85%;
-      max-width: 350px;
-      height: 100%;
-      background: var(--navy-dark);
-      z-index: 2000;
-      padding: 80px 40px;
-      transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-      display: flex;
-      flex-direction: column;
-      gap: 24px;
-      box-shadow: -10px 0 30px rgba(0,0,0,0.3);
-    }
-    .mobile-drawer.active { right: 0; }
     .drawer-close { position: absolute; top: 24px; right: 24px; font-size: 2rem; color: var(--white); cursor: pointer; }
     .drawer-link { color: var(--white); font-size: 1.2rem; font-weight: 700; font-family: 'Outfit', sans-serif; transition: color 0.3s; }
     .drawer-link:hover { color: var(--cyan); }
@@ -422,7 +404,7 @@
       </div>
       <div class="nav-ctas">
         <a href="../index.html#why-us" class="btn-nav-quote">Get a Quote</a>
-        <button class="mobile-nav-toggle" id="menu-toggle" aria-label="Open Menu" style="display: none;">≡</button>
+        <button class="mobile-nav-toggle" id="menu-toggle" aria-label="Open Menu">≡</button>
       </div>
     </div>
   </nav>
@@ -756,7 +738,6 @@
           window.scrollTo({ top: 0, behavior: 'smooth' });
         });
       }
-    });
   </script>
 </body>
 </html>
