@@ -1848,41 +1848,7 @@
   <!-- FLOATING CALL BUTTON (mobile) -->
   <a href="tel:+16132924294" class="float-call" id="float-call-btn" aria-label="Call MagicPro">📞 Call Now</a>
 
-  <script>
-    // ── FAQ Accordion ──
-    document.querySelectorAll('.faq-q').forEach(function(btn) {
-      btn.addEventListener('click', function() {
-        var item = this.closest('.faq-item');
-        var isOpen = item.classList.contains('open');
-        // Close all
-        document.querySelectorAll('.faq-item').forEach(function(i) {
-          i.classList.remove('open');
-          i.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
-        });
-        // Toggle clicked
-        if (!isOpen) {
-          item.classList.add('open');
-          this.setAttribute('aria-expanded', 'true');
-        }
-      });
-      // Keyboard support
-      btn.addEventListener('keydown', function(e) {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          this.click();
-        }
-      });
-    });
 
-    /* ── RESPONSIVE ── */
-    }
-
-    @media (max-width: 768px) {
-      .footer-grid { grid-template-columns: 1fr; gap: 32px; }
-      .nav-links { display: none; }
-      .mobile-nav-toggle { display: block !important; }
-    }
-  </style>
 
   <script>
     document.addEventListener("DOMContentLoaded", () => {
