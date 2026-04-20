@@ -259,6 +259,38 @@
     }
     .nav-ctas .btn-nav-book:hover { background: var(--navy-light); transform: translateY(-1px); }
 
+    /* DROPDOWN SYSTEM */
+    .nav-links .dropdown { position: relative; }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background: var(--white);
+      min-width: 220px;
+      box-shadow: var(--shadow-md);
+      border-radius: var(--radius-sm);
+      z-index: 1001;
+      top: 100%;
+      left: 0;
+      padding: 10px 0;
+      border: 1px solid rgba(0,0,0,0.05);
+    }
+    .dropdown-content a {
+      color: var(--text-dark) !important;
+      padding: 12px 20px !important;
+      display: block !important;
+      font-size: 0.85rem !important;
+      font-weight: 600 !important;
+      transition: all var(--transition) !important;
+    }
+    .dropdown-content a:hover { background: var(--gray-light) !important; color: var(--cyan) !important; }
+    .dropdown-content a::after { display: none !important; }
+    .dropdown:hover .dropdown-content { display: block; }
+
+    /* SERVICE CARDS ENHANCEMENT */
+    .service-card { position: relative; cursor: pointer; transition: transform var(--transition), box-shadow var(--transition); }
+    .service-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-lg); }
+    .service-link::after { content: ''; position: absolute; inset: 0; z-index: 1; }
+
     /* ── HERO ── */
     #hero {
       position: relative;
@@ -1216,7 +1248,15 @@
       <div class="nav-links" role="menubar">
         <a href="index.html" class="active" id="nav-home" role="menuitem">Home</a>
         <a href="services/about.html" id="nav-about" role="menuitem">About Us</a>
-        <a href="#services" id="nav-services" role="menuitem">Services</a>
+        <div class="dropdown">
+          <a href="#services" id="nav-services" role="menuitem">Services <span style="font-size: 0.7rem; vertical-align: middle;">▼</span></a>
+          <div class="dropdown-content">
+            <a href="services/window-cleaning.html">Window Cleaning</a>
+            <a href="services/gutter-cleaning.html">Gutter Cleaning</a>
+            <a href="services/siding-cleaning.html">Siding Cleaning</a>
+            <a href="services/pressure-washing.html">Pressure Washing</a>
+          </div>
+        </div>
         <a href="#gallery" id="nav-gallery" role="menuitem">Gallery</a>
         <a href="#reviews" id="nav-reviews" role="menuitem">Reviews</a>
         <a href="#map-section" id="nav-contact" role="menuitem">Contact</a>
