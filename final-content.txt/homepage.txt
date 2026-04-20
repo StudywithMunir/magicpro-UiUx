@@ -1,0 +1,240 @@
+MAGICPRO HOMEPAGE - EXTRACTED CONTENT (Section by Section)
+============================================================
+
+--- SECTION 1: LEFT: HEADLINE + CTAS ---
+[Text Element] Ottawa's #1 Cleaning Company
+[H1] Professional
+[Text Element] Cleaning Services
+[Text Element] Ottawa Trusts
+[Paragraph] From sparkling windows to spotless gutters: MagicPro delivers affordable cleaning services in Ottawa that protect your property and impress your neighbours. Fully insured. 100% satisfaction guaranteed.
+[Button/Link] 🎯 Get Free Quote
+[Button/Link] 📞 Call Now
+[Text Element] ✓
+[Text Element] Fully Insured
+[Text Element] ✓
+[Text Element] Free Estimates
+[Text Element] ✓
+[Text Element] 100% Guaranteed
+
+--- SECTION 2: RIGHT: STATS CARD ---
+[Text Element] 9.5K+
+[Text Element] Happy Clients
+[Text Element] 24+
+[Text Element] Years Experience
+[Text Element] 150+
+[Text Element] Expert Cleaners
+[Text Element] 100%
+[Text Element] Satisfaction Rate
+[Text Element] ★★★★★
+[Text Element] 5.0 Google Rating
+[Text Element] Based on 9,500+ reviews
+
+--- SECTION 3: TRUST RIBBON ---
+[Text Element] 🛡️
+[Text Element] Fully Licensed &amp; Insured
+[Text Element] ⚡
+[Text Element] Same-Day Availability
+[Text Element] 💰
+[Text Element] Affordable Flat-Rate Pricing
+[Text Element] 🌿
+[Text Element] Eco-Friendly Products
+[Text Element] 🏆
+[Text Element] 100% Satisfaction Guarantee
+
+--- SECTION 4: SERVICES SECTION ---
+[Text Element] What We Do
+[H2] Complete Cleaning Services for Ottawa Homes &amp; Businesses
+[Paragraph] As an affordable cleaning company in Ottawa, we handle every surface: indoors and out. From window &amp; gutter cleaning in Ottawa to pressure washing and siding, one call covers it all.
+[Button/Link] [H3] Window Cleaning Ottawa
+[Paragraph] Crystal-clear results using professional squeegee systems and streak-free solutions. We service homes, condos, and commercial buildings across Ottawa: inside and outside.
+[Text Element] Learn More →
+[Button/Link] [H3] Gutter Cleaning Ottawa
+[Paragraph] Clogged gutters cause water damage, foundation erosion, and roof leaks. Our thorough window and gutter cleaning in Ottawa keeps your drainage system clear and protected year-round.
+[Text Element] Learn More →
+[Button/Link] [H3] Siding Cleaning Ottawa
+[Paragraph] Vinyl siding accumulates mold, dirt, and stains from Ottawa's harsh winters and humid summers. We restore your home's curb appeal safely, without damaging the surface.
+[Text Element] Learn More →
+[Button/Link] [H3] Pressure Washing Ottawa
+[Paragraph] Driveways, decks, patios, and parking lots: our high-powered pressure washing eliminates years of grime from residential and commercial properties across the Ottawa-Gatineau region.
+[Text Element] Learn More →
+
+--- SECTION 5: LEFT: FEATURES ---
+[Text Element] Why MagicPro
+[H2] Ottawa's Most Trusted Cleaning Service
+[Paragraph] Homeowners and businesses across Ottawa choose us because we show up on time, do the job right, and stand behind our work: every single time.
+[Text Element] 👷
+[H4] Trained &amp; Vetted Professionals
+[Paragraph] Every cleaner completes our rigorous in-house training program and passes a background check before stepping onto your property.
+[Text Element] 📅
+[H4] We Show Up When We Say We Will
+[Paragraph] Punctuality is our promise. We confirm your appointment in advance and keep you updated every step of the way.
+[Text Element] 💸
+[H4] Transparent, Affordable Pricing
+[Paragraph] No hidden fees, no surprises. As an affordable cleaning company in Ottawa, we offer competitive flat-rate quotes: free of charge.
+[Text Element] ✅
+[H4] 100% Satisfaction Guarantee
+[Paragraph] Not happy? We'll come back and make it right: at no extra cost. Your satisfaction is not a bonus; it's our standard.
+
+--- SECTION 6: RIGHT: QUOTE FORM ---
+[Text Element] Get Your Free Quote
+[Text Element] Takes less than 60 seconds. No obligation.
+[Text Element] Select a Service
+[Text Element] Window Cleaning
+[Text Element] Gutter Cleaning
+[Text Element] Siding Cleaning
+[Text Element] Pressure Washing
+[Text Element] Multiple Services
+[Button/Control] 🎯 Request My Free Quote
+
+--- SECTION 7: HOW IT WORKS ---
+[Text Element] Simple Process
+[H2] Book Your Cleaning in 3 Easy Steps
+[Paragraph] Getting professional cleaning service in Ottawa has never been easier. Here's how it works.
+[Text Element] 1
+[H3] Pick Your Service
+[Paragraph] Choose from window cleaning, gutter cleaning, siding cleaning, or pressure washing: or bundle services for the best value.
+[Text Element] 2
+[H3] Set Your Schedule
+[Paragraph] Pick a time that works for you. We offer flexible morning and afternoon slots, 7 days a week across Ottawa and surrounding areas.
+[Text Element] 3
+[H3] Sit Back &amp; Relax
+[Paragraph] Our insured, trained cleaners arrive on time, complete the job professionally, and leave your property looking spotless.
+
+--- SECTION 8: NEW SECTION 1: ANY PLACE ---
+[Text Element] Versatile Cleaning
+[H2] We Will Make Absolutely Any Place Clean, Neat & Tidy.
+[Paragraph] We’ll get your home sparkling: responsibly and sustainably. We use natural cleaning solutions and by-hand clean wherever possible for Hall of Fame results that are kind to the environment.
+[Paragraph] We’ll get your home sparkling: responsibly and sustainably. We use natural cleaning solutions and by-hand clean wherever possible for Hall of Fame results that are kind to the environment.
+[Button/Link] 🎯 BOOK MY CLEANING
+[Text Element] 🏠 Houses
+[Text Element] 🏢 Apartment
+[Text Element] 🏘️ Townhouses
+[Text Element] 🏰 Estates
+[Text Element] 🏗️ Renovated buildings
+[Text Element] 💼 Offices
+
+--- SECTION 9: NEW SECTION 2: HERE FOR YOU ---
+[Text Element] WE HERE FOR YOU
+[H2] Ottawa Window Cleaning
+[Paragraph] We are a company dedicated to giving our customers back the time they deserve to enjoy the things they love.
+[H4] Experienced Professional
+[Paragraph] We offers a quality, reliable & professional service you can trust.
+[H4] Free Online Quote
+[Paragraph] Fill out our free quote form and we'll get back to you ASAP! Or just call us
+[H4] Customer Focused
+[Paragraph] We will provide experienced & well trained cleaning professionals to provide an excellent service & to achieve 100% client satisfaction.
+[H4] We Are Committed
+[Paragraph] We offer an operational excellence model, providing a structured & customised cleaning solution to mitigate risk & ensure quality at all times.
+[H4] Regular & Monthly Cleaning
+[Paragraph] We have a team of highly trained, reliable and friendly staff to offer brilliant cleaning results to suit your individual needs.
+
+--- SECTION 10: SERVICE AREAS ---
+[Text Element] Ottawa &amp; Beyond
+[H2] Cleaning Services Across All Ottawa Neighbourhoods
+[Paragraph] We provide cleaning service in Ottawa and the surrounding region: from the west end to the east. If you're in Ottawa, we've got you covered.
+[Text Element] Ottawa (Core)
+[Text Element] Kanata
+[Text Element] Barrhaven
+[Text Element] Orleans
+[Text Element] Gloucester
+[Text Element] Nepean
+[Text Element] Manotick
+[Text Element] Rockland
+[Text Element] Kemptville
+[Text Element] Greely
+[Text Element] Embrum
+[Text Element] Casselman
+[Text Element] Gloucester
+[Text Element] Richmond
+[Text Element] Carleton Place
+[Text Element] Almonte
+[Text Element] Arnprior
+[Text Element] Carp &amp; West Ottawa
+[Text Element] Dunrobin
+[Text Element] Cumberland
+[Paragraph] Don't see your area? Call us: we likely service your neighbourhood too!
+
+--- SECTION 11: TESTIMONIALS ---
+[Text Element] Real Ottawa Reviews
+[H2] Cleaning at Its Finest - Hear What Ottawa Says
+[Text Element] 5.0
+[Text Element] ★★★★★
+[Text Element] Based on 9,500+ Google Reviews
+[Paragraph] ★★★★★
+[Text Element] "Great guy, very friendly and professional: great prices too. Got it all done within a few hours, I thought it was going to be a whole day job. Will definitely use MagicPro again this year!"
+[Text Element] L
+[Text Element] Liz A.
+[Text Element] Ottawa, ON
+[Text Element] ★★★★★
+[Paragraph] "He showed up on time and was done in record time. Took pictures of my gutters and suggested I get them cleaned. My windows are spotless. I would recommend MagicPro wholeheartedly!"
+[Text Element] N
+[Text Element] Nicole Castiglia
+[Text Element] Kanata, Ottawa
+[Text Element] ★★★★★
+[Paragraph] "Ayoub did such an amazing job and was so quick to fit us into his day! We will definitely use MagicPro again. The gutter cleaning was thorough and the price was very fair."
+[Text Element] A
+[Text Element] Andrew Pearce
+[Text Element] Barrhaven, Ottawa
+[Text Element] ★★★★★
+[Paragraph] "I am very satisfied with MagicPro! They cleaned windows I hadn't been able to reach for years. Very professional, efficient, and thorough. I'd recommend them to anyone in Ottawa."
+[Text Element] M
+[Text Element] Mike S.
+[Text Element] Orleans, Ottawa
+[Text Element] ★★★★★
+[Paragraph] "Amazing job! Very friendly, free quote, and able to discuss pricing. Very quick and prompt. Great overall experience. Thank you Ayoub: see you in the spring for window cleaning!"
+[Text Element] K
+[Text Element] Karen P.
+[Text Element] Nepean, Ottawa
+[Text Element] ★★★★★
+[Paragraph] "MagicPro cleaned our commercial building windows and the results were incredible. Professional, affordable, and on time. Highly recommend their cleaning service in Ottawa for businesses!"
+[Text Element] R
+[Text Element] Robert M.
+[Text Element] Gloucester, Ottawa
+
+--- SECTION 12: GALLERY SECTION ---
+[Text Element] Our Past Projects
+[H2] See the Magic in Action
+[Paragraph] Browse through our recent window, gutter, and exterior cleaning projects across Ottawa. Spotless results every time.
+[H3] Pristine Windows
+[H3] Commercial Clean
+[H3] Exterior Wash
+[H3] Clear Gutters
+[H3] Crystal Clear
+
+--- SECTION 13: CTA BANNER ---
+[H2] Ready for a Spotless Home in Ottawa?
+[Paragraph] Book your window cleaning, gutter cleaning, or pressure washing today: and experience why thousands of Ottawa homeowners trust MagicPro.
+[Button/Link] 🎯 Get My Free Quote
+[Button/Link] 📞 +1 613-292-4294
+
+--- SECTION 14: FAQ SECTION ---
+[Text Element] FAQs
+[H2] Common Questions About Our Cleaning Services in Ottawa
+[Text Element] What cleaning services does MagicPro offer in Ottawa?
+[Text Element] ▼
+[Text Element] MagicPro offers a full range of exterior cleaning services in Ottawa, including professional window cleaning, gutter cleaning, vinyl siding cleaning, and high-pressure washing for driveways, decks, and parking lots. We serve both residential and commercial clients across Ottawa and the surrounding region.
+[Text Element] How much does window and gutter cleaning in Ottawa cost?
+[Text Element] ▼
+[Text Element] Pricing depends on the size of your property and the services needed. MagicPro is known as an affordable cleaning company in Ottawa: we offer free, no-obligation quotes so you always know the price before we begin. Contact us or fill out our online form to get your quote within 24 hours.
+[Text Element] Is MagicPro insured and licensed to clean in Ottawa?
+[Text Element] ▼
+[Text Element] Yes. MagicPro is fully licensed and insured for all cleaning services offered in Ottawa and the surrounding communities. Every team member is trained in-house and follows strict safety protocols, giving you complete peace of mind.
+[Text Element] Which Ottawa neighbourhoods do you serve?
+[Text Element] ▼
+[Text Element] We provide cleaning service across all Ottawa neighbourhoods including Kanata, Barrhaven, Orleans, Gloucester, Nepean, Manotick, Rockland, Kemptville, Carleton Place, Almonte, Arnprior, Carp, Dunrobin, Embrum, Casselman, Cumberland, and more. Not sure if we cover your area? Give us a call!
+[Text Element] How often should I have my gutters cleaned in Ottawa?
+[Text Element] ▼
+[Text Element] Most Ottawa homeowners should have their gutters cleaned at least twice a year: once in the spring after tree pollen season and once in the fall after leaves have dropped. Properties surrounded by trees may need more frequent cleanings. Regular gutter maintenance prevents costly water damage, foundation erosion, and roof leaks.
+
+--- SECTION 15: CONTENT SIDE ---
+[Text Element] Locally Owned & Operated
+[H2] Drop By Our Ottawa Headquarters
+[Paragraph] Perfectly situated to dispatch our highly-trained exterior cleaning crews to any neighbourhood in Ottawa with rapid, same-day efficiency.
+[Text Element] 📍
+[H4] Office Location
+[Paragraph] 611-230 Woodridge Cres, Nepean, Ottawa, ON K2B 8G2
+[Text Element] 📞
+[H4] Contact Us Directly
+[Paragraph] +1 613-292-4294 info@magicpro.ca
+[Button/Link] Get Live Directions
+

@@ -1,0 +1,10 @@
+1329: <p class="bento-desc">Beyond just the glass, we meticulously wipe down exterior and interior frames, sills, tracks, and edges. <strong>Bonus:</strong> When you book interior & exterior residential window cleaning Ottawa, we include screen cleaning absolutely free. We are proud to be the top-rated <a href="https://magicpro.ca/" style="color: var(--cyan); font-weight: 700; text-decoration: none; border-bottom: 2px solid var(--cyan-bright); padding-bottom: 2px;">Cleaning Services Ottawa</a> trusts for flawless results.</p>
+1338: <div class="check-item"><span class="check-icon">✓</span> Exterior Windows</div>
+1405: <div class="pkg-sub">Exterior focus to boost instant curb appeal.</div>
+1407: <div class="pkg-list-item"><span class="check-icon">✓</span> Handwash all exterior glass surfaces</div>
+1409: <div class="pkg-list-item"><span class="check-icon">✓</span> Wipe down exterior frames and ledges</div>
+1419: <div class="pkg-sub">Complete Interior and Exterior glass restoration.</div>
+1531: Do I need to be home when you clean my exterior windows?
+1535: Not at all! If you book our Basic Package (exterior window cleaning only), our professional cleaners can complete the entire job while you are out. We just ask that you ensure all gates are unlocked and your window screens are removed beforehand. We will send you an invoice online once the job is flawlessly completed.
+1545: Absolutely. If you select our Deluxe Window Cleaning Package (interior & exterior), we meticulously wipe down all visible tracks, sills, and ledges. Furthermore, we include complimentary, free window screen cleaning as part of that premier service to ensure nothing obstructs your crystal-clear view.
+1571: <p>Perfectly situated to dispatch our highly-trained exterior cleaning crews to any neighbourhood in Ottawa with rapid, same-day efficiency.</p>

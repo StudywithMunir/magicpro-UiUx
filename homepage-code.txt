@@ -1,0 +1,2001 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cleaning Services Ottawa | MagicPro Window & Gutter Cleaning</title>
+  <meta name="description" content="MagicPro offers trusted cleaning services in Ottawa: window cleaning, gutter cleaning, siding cleaning & pressure washing. Affordable, insured & locally owned. Get a free quote today!" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.magicpro.ca/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Cleaning Services Ottawa | MagicPro Window & Gutter Cleaning" />
+  <meta property="og:description" content="Ottawa's trusted cleaning service: windows, gutters, siding & pressure washing. Fully insured. Free quotes. Serving Kanata, Barrhaven, Orleans & all of Ottawa." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.magicpro.ca/" />
+
+  <!-- Schema Markup: LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "MagicPro Window Cleaning",
+    "description": "Professional cleaning services in Ottawa including window cleaning, gutter cleaning, siding cleaning and pressure washing.",
+    "url": "https://www.magicpro.ca",
+    "telephone": "+1-613-292-4294",
+    "email": "info@magicpro.ca",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "611-230 Woodridge Cres",
+      "addressLocality": "Nepean, Ottawa",
+      "addressRegion": "ON",
+      "postalCode": "K2B 8G2",
+      "addressCountry": "CA"
+    },
+    "openingHours": "Mo-Su 07:00-20:00",
+    "areaServed": ["Ottawa", "Kanata", "Barrhaven", "Orleans", "Gloucester", "Nepean", "Manotick", "Rockland"],
+    "priceRange": "$$",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "9500"
+    }
+  }
+  
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet" />
+
+  <style>
+    /* =============================================
+       DESIGN TOKENS: Brand Color Scheme
+       Dark Navy: #1a2e4a  |  Mid Navy: #1e3a5f
+       Cyan/Teal:  #00b4d8 |  Bright Cyan: #0dc5e0
+       White: #ffffff       |  Off-white: #f0f8ff
+       Green Accent: #2eb82e
+    ============================================= */
+
+    :root {
+      --navy-dark:   #0f1e30;
+      --navy-mid:    #1a2e4a;
+      --navy-light:  #1e3a5f;
+      --cyan:        #00b4d8;
+      --cyan-bright: #0dcaf0;
+      --cyan-light:  #e0f7fb;
+      --green:       #2eb82e;
+      --green-light: #e8f8e8;
+      --white:       #ffffff;
+      --off-white:   #f0f8ff;
+      --gray-light:  #f4f6f9;
+      --gray-mid:    #8a9ab0;
+      --text-dark:   #0f1e30;
+      --text-body:   #3a4a5c;
+      --shadow-sm:   0 2px 8px rgba(0,0,0,0.08);
+      --shadow-md:   0 8px 30px rgba(0,0,0,0.12);
+      --shadow-lg:   0 20px 60px rgba(0,0,0,0.18);
+      --radius-sm:   8px;
+      --radius-md:   16px;
+      --radius-lg:   24px;
+      --transition:  0.3s ease;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      color: var(--text-body);
+      background: var(--white);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    img { max-width: 100%; display: block; }
+    a { text-decoration: none; color: inherit; }
+    ul { list-style: none; }
+
+    /* ── UTILITY ── */
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .section-tag {
+      display: inline-block;
+      background: var(--cyan-light);
+      color: var(--cyan);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 6px 16px;
+      border-radius: 50px;
+      margin-bottom: 14px;
+    }
+    .section-tag.dark {
+      background: rgba(255,255,255,0.12);
+      color: var(--cyan-bright);
+    }
+    .section-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+      font-weight: 800;
+      color: var(--text-dark);
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+    .section-title.light { color: var(--white); }
+    .section-sub {
+      font-size: 1.05rem;
+      color: var(--gray-mid);
+      max-width: 580px;
+      line-height: 1.7;
+    }
+    .section-sub.light { color: rgba(255,255,255,0.75); }
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: linear-gradient(135deg, var(--cyan) 0%, var(--cyan-bright) 100%);
+      color: var(--white);
+      font-weight: 700;
+      font-size: 0.95rem;
+      padding: 14px 28px;
+      border-radius: 50px;
+      border: none;
+      cursor: pointer;
+      transition: transform var(--transition), box-shadow var(--transition);
+      box-shadow: 0 4px 20px rgba(0,180,216,0.35);
+    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,180,216,0.5); }
+    .btn-outline {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: transparent;
+      color: var(--white);
+      font-weight: 600;
+      font-size: 0.95rem;
+      padding: 13px 26px;
+      border-radius: 50px;
+      border: 2px solid rgba(255,255,255,0.4);
+      cursor: pointer;
+      transition: all var(--transition);
+    }
+    .btn-outline:hover { background: rgba(255,255,255,0.12); border-color: var(--white); }
+
+    /* ── TOP BAR ── */
+    #top-bar {
+      background: var(--navy-dark);
+      padding: 10px 0;
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.75);
+    }
+    #top-bar .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    #top-bar .contact-links { display: flex; gap: 24px; align-items: center; }
+    #top-bar a { color: rgba(255,255,255,0.8); display: flex; align-items: center; gap: 6px; transition: color var(--transition); }
+    #top-bar a:hover { color: var(--cyan-bright); }
+    #top-bar .socials { display: flex; gap: 14px; }
+    #top-bar .socials a { font-size: 1rem; }
+    .icon-phone::before { content: "📞"; font-size: 0.75rem; }
+    .icon-mail::before  { content: "✉️"; font-size: 0.75rem; }
+    .icon-clock::before { content: "🕐"; font-size: 0.75rem; }
+
+    /* ── NAVIGATION ── */
+    #navbar {
+      background: var(--white);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+      transition: box-shadow var(--transition);
+    }
+    #navbar .nav-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 24px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .nav-logo { align-items: center; justify-content: center;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .logo-icon {
+      width: 48px;
+      height: 48px;
+      background: linear-gradient(135deg, var(--navy-mid), var(--cyan));
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+    }
+    .logo-text { font-family: 'Outfit', sans-serif; font-weight: 800; color: var(--navy-dark); font-size: 1.3rem; line-height: 1.1; }
+    .logo-text span { color: var(--cyan); }
+    .logo-sub { font-size: 0.65rem; color: var(--gray-mid); font-weight: 500; letter-spacing: 0.05em; }
+    .nav-links { display: flex; align-items: center; gap: 32px; }
+    .nav-links a { font-size: 0.9rem; font-weight: 600; color: var(--text-dark); transition: color var(--transition); position: relative; }
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--cyan);
+      transition: width var(--transition);
+    }
+    .nav-links a:hover::after, .nav-links a.active::after { width: 100%; }
+    .nav-links a:hover, .nav-links a.active { color: var(--cyan); }
+    .nav-ctas { display: flex; gap: 12px; align-items: center; }
+    .nav-ctas .btn-nav-quote {
+      background: linear-gradient(135deg, var(--cyan), var(--cyan-bright));
+      color: var(--white);
+      font-weight: 700;
+      font-size: 0.85rem;
+      padding: 10px 20px;
+      border-radius: 50px;
+      transition: all var(--transition);
+      box-shadow: 0 3px 12px rgba(0,180,216,0.3);
+    }
+    .nav-ctas .btn-nav-quote:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(0,180,216,0.45); }
+    .nav-ctas .btn-nav-book {
+      background: var(--navy-dark);
+      color: var(--white);
+      font-weight: 700;
+      font-size: 0.85rem;
+      padding: 10px 20px;
+      border-radius: 50px;
+      transition: all var(--transition);
+    }
+    .nav-ctas .btn-nav-book:hover { background: var(--navy-light); transform: translateY(-1px); }
+
+    /* ── HERO ── */
+    #hero {
+      position: relative;
+      background: linear-gradient(135deg, rgba(15,30,48,0.92) 0%, rgba(10,50,90,0.75) 100%), url('Magic Pro Window Cleaning Images/1-0A4A0029.jpg') center/cover;
+      min-height: 680px;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      padding: 80px 0;
+    }
+    #hero::before {
+      content: '';
+      position: absolute;
+      top: -100px;
+      right: -100px;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(0,180,216,0.15) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    #hero::after {
+      content: '';
+      position: absolute;
+      bottom: -80px;
+      left: -80px;
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, rgba(0,180,216,0.08) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 60px;
+      position: relative;
+      z-index: 2;
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(0,180,216,0.15);
+      border: 1px solid rgba(0,180,216,0.3);
+      color: var(--cyan-bright);
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      padding: 8px 18px;
+      border-radius: 50px;
+      margin-bottom: 24px;
+    }
+    .hero-badge-dot {
+      width: 8px;
+      height: 8px;
+      background: var(--cyan-bright);
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50%       { opacity: 0.5; transform: scale(1.3); }
+    }
+    #hero h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: clamp(2.2rem, 4.5vw, 3.6rem);
+      font-weight: 900;
+      color: var(--white);
+      line-height: 1.12;
+      margin-bottom: 20px;
+    }
+    #hero h1 span { color: var(--cyan-bright); }
+    .hero-tagline {
+      font-size: 1.1rem;
+      color: rgba(255,255,255,0.8);
+      margin-bottom: 36px;
+      line-height: 1.65;
+      max-width: 480px;
+    }
+    .hero-ctas { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 44px; }
+    .hero-trust {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: rgba(255,255,255,0.75);
+      font-size: 0.82rem;
+      font-weight: 500;
+    }
+    .trust-check {
+      width: 20px;
+      height: 20px;
+      background: var(--cyan);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.65rem;
+      color: white;
+      flex-shrink: 0;
+    }
+    /* Hero Right: Stats Visual */
+    .hero-right { position: relative; }
+    .hero-card {
+      background: rgba(255,255,255,0.06);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: var(--radius-lg);
+      padding: 36px;
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-bottom: 28px;
+    }
+    .stat-box {
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius-md);
+      padding: 22px 18px;
+      text-align: center;
+      transition: background var(--transition);
+    }
+    .stat-box:hover { background: rgba(0,180,216,0.15); }
+    .stat-num {
+      font-family: 'Outfit', sans-serif;
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: var(--cyan-bright);
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+    .stat-label { font-size: 0.8rem; color: rgba(255,255,255,0.65); font-weight: 500; }
+    .rating-strip {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: rgba(255,255,255,0.06);
+      border-radius: var(--radius-sm);
+      padding: 14px 18px;
+    }
+    .stars { color: #ffd700; font-size: 1.1rem; letter-spacing: 2px; }
+    .rating-text { color: rgba(255,255,255,0.85); font-size: 0.85rem; font-weight: 600; }
+
+    /* ── TRUST RIBBON ── */
+    #trust-ribbon {
+      background: var(--off-white);
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+      padding: 20px 0;
+    }
+    .ribbon-inner {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .ribbon-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-dark);
+    }
+    .ribbon-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--cyan), var(--cyan-bright));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9rem;
+      color: white;
+    }
+
+    /* ── SERVICES ── */
+    #services { padding: 90px 0; background: var(--white); }
+    .services-header { text-align: center; margin-bottom: 56px; }
+    .services-header .section-sub { margin: 0 auto; }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+    .service-card {
+      background: var(--white);
+      border: 1px solid rgba(0,0,0,0.07);
+      border-radius: var(--radius-md);
+      padding: 0;
+      position: relative;
+      overflow: hidden;
+      transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+      cursor: pointer;
+    }
+    .service-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: linear-gradient(90deg, var(--cyan), var(--cyan-bright));
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform var(--transition);
+    }
+    .service-card:hover::before { transform: scaleX(1); }
+    .service-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-lg);
+      border-color: rgba(0,180,216,0.2);
+    }
+    .service-img-wrapper {
+      width: 100%;
+      aspect-ratio: 1.6; height: auto;
+      overflow: hidden;
+      border-radius: var(--radius-md) var(--radius-md) 0 0;
+      margin-bottom: 0;
+    }
+    .service-content { padding: 28px 24px; }
+    .service-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; object-position: center center;
+      transition: transform var(--transition);
+    }
+    .service-card:hover .service-img { transform: scale(1.08); }
+    .service-card h3 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--text-dark);
+      margin-bottom: 12px;
+    }
+    .service-card p { font-size: 0.9rem; color: var(--gray-mid); line-height: 1.65; margin-bottom: 20px; }
+    .service-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--cyan);
+      font-size: 0.85rem;
+      font-weight: 700;
+      transition: gap var(--transition);
+    }
+    .service-link:hover { gap: 10px; }
+
+    /* ── WHY US ── */
+    #why-us {
+      padding: 90px 0;
+      background: linear-gradient(135deg, rgba(15,30,48,0.95) 0%, rgba(30,58,95,0.88) 100%), url('Magic Pro Window Cleaning Images/11-0A4A0158.jpg') center/cover fixed;
+      position: relative;
+      overflow: hidden;
+    }
+    #why-us::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: -200px;
+      transform: translateY(-50%);
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(0,180,216,0.1) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .why-us-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+    }
+    .why-left { position: relative; z-index: 2; }
+    .why-right { position: relative; z-index: 2; }
+    .features-list { display: flex; flex-direction: column; gap: 20px; margin-top: 36px; }
+    .feature-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      transition: background var(--transition);
+    }
+    .feature-item:hover { background: rgba(0,180,216,0.1); }
+    .feature-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: var(--radius-sm);
+      background: linear-gradient(135deg, var(--cyan), var(--cyan-bright));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+    .feature-text h4 {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      color: var(--white);
+      font-size: 1rem;
+      margin-bottom: 4px;
+    }
+    .feature-text p { font-size: 0.88rem; color: rgba(255,255,255,0.6); line-height: 1.55; }
+    /* Quote Box */
+    .quote-box {
+      background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius-lg);
+      padding: 40px;
+    }
+    .quote-box-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--white);
+      margin-bottom: 8px;
+    }
+    .quote-box-sub { color: rgba(255,255,255,0.6); font-size: 0.88rem; margin-bottom: 28px; }
+    .quote-form { display: flex; flex-direction: column; gap: 14px; }
+    .quote-form input, .quote-form select {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: var(--radius-sm);
+      padding: 13px 16px;
+      color: var(--white);
+      font-size: 0.9rem;
+      font-family: 'Inter', sans-serif;
+      outline: none;
+      transition: border-color var(--transition);
+      width: 100%;
+    }
+    .quote-form input::placeholder { color: rgba(255,255,255,0.35); }
+    .quote-form input:focus, .quote-form select:focus { border-color: var(--cyan); }
+    .quote-form select option { background: var(--navy-dark); color: white; }
+    .quote-form .btn-primary { width: 100%; justify-content: center; padding: 15px; font-size: 1rem; }
+
+    /* ── HOW IT WORKS ── */
+    #how-it-works { padding: 90px 0; background: var(--gray-light); }
+    .how-header { text-align: center; margin-bottom: 60px; }
+    .steps-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+      position: relative;
+    }
+    .steps-grid::before {
+      content: '';
+      position: absolute;
+      top: 44px;
+      left: calc(16.66% + 24px);
+      right: calc(16.66% + 24px);
+      height: 2px;
+      background: linear-gradient(90deg, var(--cyan), var(--cyan-bright));
+      z-index: 0;
+    }
+    .step-card {
+      background: var(--white);
+      border-radius: var(--radius-md);
+      padding: 36px 28px;
+      text-align: center;
+      box-shadow: var(--shadow-sm);
+      position: relative;
+      z-index: 1;
+      transition: transform var(--transition), box-shadow var(--transition);
+    }
+    .step-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-md); }
+    .step-num {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--cyan), var(--cyan-bright));
+      color: var(--white);
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+      box-shadow: 0 4px 15px rgba(0,180,216,0.4);
+    }
+    .step-card h3 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text-dark);
+      margin-bottom: 10px;
+    }
+    .step-card p { font-size: 0.88rem; color: var(--gray-mid); line-height: 1.65; }
+
+    
+    /* ── NEW SECTIONS ── */
+    #any-place { padding: 90px 0; background: var(--off-white); }
+    .any-place-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 60px; align-items: center; }
+    #any-place h2 { font-family: 'Outfit', sans-serif; font-size: clamp(2rem, 3vw, 2.5rem); font-weight: 800; color: var(--text-dark); margin-bottom: 24px; line-height: 1.15; }
+    .any-place-text p { font-size: 1.05rem; line-height: 1.7; color: var(--text-body); margin-bottom: 20px; }
+    .places-list { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-content: center; }
+    .place-item { display: flex; align-items: center; gap: 12px; background: var(--white); padding: 18px 22px; border-radius: var(--radius-sm); box-shadow: var(--shadow-sm); font-weight: 700; color: var(--text-dark); border-left: 4px solid var(--cyan); transition: transform var(--transition), box-shadow var(--transition); cursor: default; }
+    .place-item:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); border-color: var(--cyan-bright); }
+    
+    #here-for-you { padding: 90px 0; background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy-mid) 100%); color: var(--white); position: relative; overflow: hidden; }
+    #here-for-you::after { content: ''; position: absolute; bottom: -100px; right: -100px; width: 400px; height: 400px; background: radial-gradient(circle, rgba(0,180,216,0.08) 0%, transparent 70%); pointer-events: none; }
+    .hfy-header { text-align: center; margin-bottom: 64px; position: relative; z-index: 2; }
+    .hfy-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; position: relative; z-index: 2; }
+    .hfy-card { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); padding: 36px 28px; border-radius: var(--radius-md); transition: transform var(--transition), background var(--transition); text-align: center; }
+    .hfy-card:hover { transform: translateY(-5px); background: rgba(0,180,216,0.12); border-color: rgba(0,180,216,0.25); }
+    .hfy-card h4 { font-family: 'Outfit', sans-serif; font-size: 1.25rem; color: var(--white); margin-bottom: 14px; }
+    .hfy-card p { font-size: 0.92rem; line-height: 1.65; color: rgba(255,255,255,0.65); }
+    @media (max-width: 900px) {
+      .any-place-grid { grid-template-columns: 1fr; gap: 40px; }
+      .hfy-card[style] { grid-column: auto !important; }
+    }
+
+    /* ── SERVICE AREAS ── */
+    #service-areas { padding: 80px 0; background: var(--white); }
+    .areas-header { text-align: center; margin-bottom: 48px; }
+    .areas-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-bottom: 36px;
+    }
+    .area-pill {
+      background: var(--off-white);
+      border: 1px solid rgba(0,0,0,0.07);
+      border-radius: 50px;
+      padding: 12px 20px;
+      text-align: center;
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--text-dark);
+      transition: all var(--transition);
+      cursor: pointer;
+    }
+    .area-pill:hover, .area-pill.featured {
+      background: var(--cyan);
+      color: var(--white);
+      border-color: var(--cyan);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 14px rgba(0,180,216,0.3);
+    }
+    .areas-note {
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--gray-mid);
+    }
+    .areas-note strong { color: var(--cyan); }
+
+    /* ── TESTIMONIALS ── */
+    #testimonials {
+      padding: 90px 0;
+      background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy-mid) 100%);
+    }
+    .testimonials-header { text-align: center; margin-bottom: 60px; }
+    .reviews-avg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 48px;
+    }
+    .avg-score {
+      font-family: 'Outfit', sans-serif;
+      font-size: 3.5rem;
+      font-weight: 900;
+      color: var(--white);
+    }
+    .avg-right {}
+    .avg-stars { color: #ffd700; font-size: 1.4rem; letter-spacing: 3px; }
+    .avg-label { color: rgba(255,255,255,0.6); font-size: 0.82rem; margin-top: 2px; }
+    .slider-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 24px;
+    }
+    .slider-controls { display: flex; gap: 12px; }
+    .slider-btn {
+      width: 48px; height: 48px; border-radius: 50%;
+      background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2);
+      color: var(--white); display: flex; align-items: center; justify-content: center;
+      cursor: pointer; transition: all var(--transition);
+    }
+    .slider-btn:hover { background: var(--cyan); border-color: var(--cyan); transform: scale(1.05); }
+    .slider-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+    
+    .reviews-slider-wrapper { overflow: hidden; width: 100%; padding-bottom: 10px; }
+    .reviews-track {
+      display: flex; gap: 24px; transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+      will-change: transform;
+    }
+    .reviews-track .review-card {
+      flex: 0 0 calc(33.333% - 16px);
+      min-width: calc(33.333% - 16px);
+    }
+    
+    #jump-top {
+      position: fixed; bottom: 30px; right: 30px; width: 50px; height: 50px;
+      background: var(--navy-dark); color: var(--white);
+      border-radius: 50%; display: flex; align-items: center; justify-content: center;
+      cursor: pointer; box-shadow: var(--shadow-lg); border: 2px solid rgba(255,255,255,0.1);
+      transform: translateY(100px); opacity: 0; transition: all 0.4s ease; z-index: 9999;
+    }
+    #jump-top.visible { transform: translateY(0); opacity: 1; }
+    #jump-top:hover { background: var(--cyan); transform: translateY(-5px); border-color: var(--cyan); }
+    @media (max-width: 900px) {
+      .reviews-track .review-card { flex: 0 0 calc(50% - 12px); min-width: calc(50% - 12px); }
+    }
+    @media (max-width: 600px) {
+      .slider-header { flex-direction: column; align-items: flex-start; gap: 20px; }
+      .reviews-track .review-card { flex: 0 0 100%; min-width: 100%; }
+      #jump-top { bottom: 100px; right: 24px; left: auto; }
+    }
+
+    .review-card {
+      background: rgba(255,255,255,0.06);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius-md);
+      padding: 28px;
+      transition: transform var(--transition), background var(--transition);
+    }
+    .review-card:hover { transform: translateY(-4px); background: rgba(255,255,255,0.09); }
+    .review-stars { color: #ffd700; font-size: 0.9rem; letter-spacing: 2px; margin-bottom: 14px; }
+    .review-text {
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.8);
+      line-height: 1.7;
+      margin-bottom: 20px;
+      font-style: italic;
+    }
+    .review-author { display: flex; align-items: center; gap: 12px; }
+    .author-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--cyan), var(--cyan-bright));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      color: white;
+      font-size: 0.9rem;
+      flex-shrink: 0;
+    }
+    .author-name { font-weight: 700; color: var(--white); font-size: 0.88rem; }
+    .author-location { font-size: 0.75rem; color: var(--cyan-bright); }
+
+    /* ── GALLERY ── */
+    #gallery {
+      padding: 90px 0;
+      background: var(--white);
+    }
+    .gallery-header { text-align: center; margin-bottom: 56px; }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 300px);
+      gap: 16px;
+    }
+    .gallery-item {
+      position: relative;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .gallery-item:nth-child(1) { grid-column: span 2; grid-row: span 2; }
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; object-position: center center;
+      transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), filter var(--transition);
+      filter: brightness(0.9);
+    }
+    .gallery-item:hover img {
+      transform: scale(1.05);
+      filter: brightness(1.1);
+    }
+    .gallery-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(15,30,48,0.85) 0%, transparent 60%);
+      opacity: 0;
+      transition: opacity var(--transition);
+      display: flex;
+      align-items: flex-end;
+      padding: 24px;
+    }
+    .gallery-item:hover .gallery-overlay { opacity: 1; }
+    .gallery-overlay h3 {
+      font-family: 'Outfit', sans-serif;
+      color: var(--white);
+      font-size: 1.3rem;
+      transform: translateY(20px);
+      transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+    .gallery-item:hover .gallery-overlay h3 {
+      transform: translateY(0);
+    }
+    @media (max-width: 900px) {
+      .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-auto-rows: 250px;
+      }
+      .gallery-item:nth-child(1) { grid-column: span 2; grid-row: span 1; }
+    }
+    @media (max-width: 600px) {
+      .gallery-grid { grid-template-columns: 1fr; grid-auto-rows: 250px; }
+      .gallery-item:nth-child(1) { grid-column: span 1; grid-row: span 1; }
+    }
+
+    /* ── CTA BANNER ── */
+    #cta-banner {
+      padding: 80px 0;
+      background: linear-gradient(135deg, #0a3a5c 0%, var(--navy-dark) 100%);
+      position: relative;
+      overflow: hidden;
+    }
+    #cta-banner::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2300b4d8' fill-opacity='0.04'%3E%3Ccircle cx='30' cy='30' r='4'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      pointer-events: none;
+    }
+    .cta-inner {
+      text-align: center;
+      position: relative;
+      z-index: 2;
+    }
+    .cta-inner h2 {
+      font-family: 'Outfit', sans-serif;
+      font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+      font-weight: 900;
+      color: var(--white);
+      margin-bottom: 14px;
+      line-height: 1.2;
+    }
+    .cta-inner h2 span { color: var(--cyan-bright); }
+    .cta-inner p { color: rgba(255,255,255,0.7); font-size: 1rem; margin-bottom: 36px; max-width: 500px; margin-left: auto; margin-right: auto; }
+    .cta-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+    .btn-white {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--white);
+      color: var(--navy-dark);
+      font-weight: 700;
+      font-size: 0.95rem;
+      padding: 14px 28px;
+      border-radius: 50px;
+      transition: all var(--transition);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    }
+    .btn-white:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,0.3); }
+
+    /* ── FAQ ── */
+    #faq { padding: 80px 0; background: var(--gray-light); }
+    .faq-header { text-align: center; margin-bottom: 48px; }
+    .faq-grid { max-width: 760px; margin: 0 auto; display: flex; flex-direction: column; gap: 14px; }
+    .faq-item {
+      background: var(--white);
+      border: 1px solid rgba(0,0,0,0.07);
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+    }
+    .faq-q {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 24px;
+      cursor: pointer;
+      font-weight: 600;
+      color: var(--text-dark);
+      font-size: 0.95rem;
+      transition: color var(--transition);
+      gap: 12px;
+    }
+    .faq-q:hover { color: var(--cyan); }
+    .faq-chevron {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: var(--cyan-light);
+      color: var(--cyan);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.8rem;
+      flex-shrink: 0;
+      transition: transform var(--transition), background var(--transition);
+    }
+    .faq-item.open .faq-chevron { transform: rotate(180deg); background: var(--cyan); color: white; }
+    .faq-a {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, padding 0.3s ease;
+      font-size: 0.9rem;
+      color: var(--gray-mid);
+      line-height: 1.7;
+      padding: 0 24px;
+    }
+    .faq-item.open .faq-a { max-height: 300px; padding: 0 24px 20px; }
+
+    /* ── FOOTER ── */
+    #footer {
+      background: var(--navy-dark);
+      padding: 70px 0 0;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+      gap: 48px;
+      margin-bottom: 48px;
+    }
+    .footer-brand .logo-text { color: var(--white); }
+    .footer-brand .logo-text span { color: var(--cyan-bright); }
+    .footer-desc {
+      margin-top: 16px;
+      font-size: 0.88rem;
+      color: rgba(255,255,255,0.5);
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+    .footer-socials { display: flex; gap: 12px; }
+    .social-btn {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255,255,255,0.6);
+      font-size: 0.9rem;
+      transition: all var(--transition);
+    }
+    .social-btn:hover { background: var(--cyan); border-color: var(--cyan); color: white; }
+    .footer-col-title {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      color: var(--white);
+      font-size: 0.95rem;
+      margin-bottom: 20px;
+      position: relative;
+      padding-bottom: 10px;
+    }
+    .footer-col-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 32px;
+      height: 2px;
+      background: var(--cyan);
+      border-radius: 2px;
+    }
+    .footer-links { display: flex; flex-direction: column; gap: 10px; }
+    .footer-links a {
+      font-size: 0.88rem;
+      color: rgba(255,255,255,0.5);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: color var(--transition);
+    }
+    .footer-links a::before { content: '→'; color: var(--cyan); font-size: 0.75rem; }
+    .footer-links a:hover { color: var(--cyan-bright); }
+    .footer-contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 14px;
+      font-size: 0.88rem;
+      color: rgba(255,255,255,0.6);
+    }
+    .footer-contact-icon {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: rgba(0,180,216,0.15);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.8rem;
+      flex-shrink: 0;
+    }
+    .footer-contact-item a { color: rgba(255,255,255,0.6); transition: color var(--transition); }
+    .footer-contact-item a:hover { color: var(--cyan-bright); }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding: 22px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .footer-bottom p { font-size: 0.82rem; color: rgba(255,255,255,0.35); }
+    .footer-bottom a { color: var(--cyan); }
+    .footer-legal { display: flex; gap: 20px; }
+    .footer-legal a { font-size: 0.82rem; color: rgba(255,255,255,0.35); transition: color var(--transition); }
+    .footer-legal a:hover { color: var(--cyan-bright); }
+
+    /* ── FLOATING CALL BTN (mobile) ── */
+    .float-call {
+      display: none;
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: linear-gradient(135deg, var(--green), #25a025);
+      color: white;
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 14px 22px;
+      border-radius: 50px;
+      box-shadow: 0 6px 24px rgba(46,184,46,0.4);
+      z-index: 9999;
+      align-items: center;
+      gap: 8px;
+      transition: transform var(--transition);
+    }
+    .float-call:hover { transform: scale(1.05); }
+
+    
+    
+    /* ── MAP SECTION ── */
+    #map-section { padding: 90px 0; background: var(--off-white); }
+    .map-bento {
+      background: var(--white);
+      border-radius: 30px;
+      overflow: hidden;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.06);
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      border: 1px solid rgba(0,0,0,0.04);
+    }
+    .map-bento-content {
+      padding: 64px 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .map-badge {
+      display: inline-block;
+      background: rgba(0,180,216,0.1);
+      color: var(--cyan-bright);
+      padding: 6px 16px;
+      border-radius: 50px;
+      font-size: 0.8rem;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .map-bento-content h2 { font-family: 'Outfit', sans-serif; font-size: clamp(2rem, 3vw, 2.5rem); color: var(--navy-dark); margin-bottom: 20px; line-height: 1.15; font-weight: 800; }
+    .map-bento-content > p { font-size: 1.05rem; color: var(--text-body); margin-bottom: 40px; line-height: 1.6; }
+    .map-row { display: flex; align-items: flex-start; gap: 20px; margin-bottom: 30px; }
+    .map-icon { font-size: 1.6rem; display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; background: rgba(0,180,216,0.1); border-radius: 14px; position: relative; top: -5px; }
+    .map-row-text h4 { font-family: 'Outfit', sans-serif; font-size: 1.15rem; font-weight: 700; color: var(--navy-dark); margin-bottom: 6px; }
+    .map-row-text p { color: var(--gray-mid); font-size: 0.95rem; line-height: 1.5; font-weight: 500; }
+    .map-iframe-wrapper {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      min-height: 500px;
+    }
+    .map-iframe-wrapper iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      border: none;
+      filter: contrast(1.05) saturate(1.1);
+    }
+    @media (max-width: 1024px) {
+      .map-bento { grid-template-columns: 1fr 1fr; }
+      .map-bento-content { padding: 40px; }
+    }
+    @media (max-width: 900px) {
+      .map-bento { grid-template-columns: 1fr; }
+      .map-bento-content { padding: 40px 30px; }
+      .map-iframe-wrapper { min-height: 400px; }
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 1024px) {
+      .services-grid { grid-template-columns: repeat(2, 1fr); }
+      .areas-grid { grid-template-columns: repeat(3, 1fr); }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 768px) {
+      #jump-top { bottom: 100px; right: 24px; left: auto; }
+      .hero-grid { grid-template-columns: 1fr; gap: 40px; }
+      .hero-right { display: block; width: 100%; margin-top: 20px; }
+      .nav-ctas .btn-nav-book { display: none; } /* Hide secondary button to keep logo neat */
+      .nav-ctas .btn-nav-quote { padding: 8px 16px; font-size: 0.8rem; }
+      .hero-card { padding: 24px; }
+      .places-list { grid-template-columns: 1fr; } /* Stack new list cleanly */
+      .any-place-grid { gap: 30px; }
+      .hfy-grid { gap: 16px; }
+
+      .why-us-grid { grid-template-columns: 1fr; gap: 40px; }
+      .steps-grid { grid-template-columns: 1fr; }
+      .steps-grid::before { display: none; }
+      
+      .areas-grid { grid-template-columns: repeat(2, 1fr); }
+      .footer-grid { grid-template-columns: 1fr; gap: 36px; }
+      .nav-links { display: none; }
+      .float-call { display: flex; }
+      #top-bar .contact-links { gap: 12px; font-size: 0.78rem; }
+      .ribbon-inner { justify-content: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div id="top-bar" aria-label="Contact information bar">
+    <div class="container">
+      <div class="contact-links">
+        <a href="tel:+16132924294" id="topbar-phone"><span class="icon-phone"></span> +1 613-292-4294</a>
+        <a href="mailto:info@magicpro.ca" id="topbar-email"><span class="icon-mail"></span> info@magicpro.ca</a>
+        <span class="trust-item"><span class="icon-clock"></span> Mon-Sun: 7 AM - 8 PM</span>
+      </div>
+      <div class="socials" aria-label="Social media links">
+        <a href="#" id="topbar-facebook" aria-label="Facebook">f</a>
+        <a href="#" id="topbar-twitter" aria-label="Twitter">𝕏</a>
+        <a href="#" id="topbar-instagram" aria-label="Instagram">◎</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo" id="nav-logo" aria-label="MagicPro Home">
+        <img src="Magic-Pro-Logo-New-1024x665.png" alt="MagicPro Window Cleaning" style="height: 52px; width: auto; display: block;" />
+      </a>
+      <div class="nav-links" role="menubar">
+        <a href="/" class="active" id="nav-home" role="menuitem">Home</a>
+        <a href="/about" id="nav-about" role="menuitem">About Us</a>
+        <a href="/services" id="nav-services" role="menuitem">Services</a>
+        <a href="/gallery" id="nav-gallery" role="menuitem">Gallery</a>
+        <a href="/reviews" id="nav-reviews" role="menuitem">Reviews</a>
+        <a href="/contact" id="nav-contact" role="menuitem">Contact</a>
+      </div>
+      <div class="nav-ctas">
+        <a href="/quote" id="nav-get-quote" class="btn-nav-quote">Get a Quote</a>
+        <a href="/book" id="nav-book-online" class="btn-nav-book">Book Online</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="hero" aria-label="Hero section">
+    <div class="container">
+      <div class="hero-grid">
+        <!-- LEFT: Headline + CTAs -->
+        <div class="hero-left">
+          <div class="hero-badge">
+            <div class="hero-badge-dot"></div>
+            Ottawa's #1 Cleaning Company
+          </div>
+          <h1>
+            Professional<br />
+            <span>Cleaning Services</span><br />
+            Ottawa Trusts
+          </h1>
+          <p class="hero-tagline">
+            From sparkling windows to spotless gutters: MagicPro delivers affordable cleaning services in Ottawa that protect your property and impress your neighbours. Fully insured. 100% satisfaction guaranteed.
+          </p>
+          <div class="hero-ctas">
+            <a href="/quote" id="hero-get-quote" class="btn-primary">🎯 Get Free Quote</a>
+            <a href="tel:+16132924294" id="hero-call-now" class="btn-outline">📞 Call Now</a>
+          </div>
+          <div class="hero-trust">
+            <div class="trust-item">
+              <div class="trust-check">✓</div>
+              Fully Insured
+            </div>
+            <div class="trust-item">
+              <div class="trust-check">✓</div>
+              Free Estimates
+            </div>
+            <div class="trust-item">
+              <div class="trust-check">✓</div>
+              100% Guaranteed
+            </div>
+          </div>
+        </div>
+        <!-- RIGHT: Stats Card -->
+        <div class="hero-right" aria-hidden="true">
+          <div class="hero-card">
+            <div class="stats-grid">
+              <div class="stat-box">
+                <div class="stat-num">9.5K+</div>
+                <div class="stat-label">Happy Clients</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-num">24+</div>
+                <div class="stat-label">Years Experience</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-num">150+</div>
+                <div class="stat-label">Expert Cleaners</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-num">100%</div>
+                <div class="stat-label">Satisfaction Rate</div>
+              </div>
+            </div>
+            <div class="rating-strip">
+              <div class="stars">★★★★★</div>
+              <div>
+                <div class="rating-text">5.0 Google Rating</div>
+                <div style="font-size:0.75rem;color:rgba(255,255,255,0.5);">Based on 9,500+ reviews</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST RIBBON -->
+  <div id="trust-ribbon" aria-label="Trust signals">
+    <div class="container">
+      <div class="ribbon-inner">
+        <div class="ribbon-item">
+          <div class="ribbon-icon">🛡️</div>
+          Fully Licensed &amp; Insured
+        </div>
+        <div class="ribbon-item">
+          <div class="ribbon-icon">⚡</div>
+          Same-Day Availability
+        </div>
+        <div class="ribbon-item">
+          <div class="ribbon-icon">💰</div>
+          Affordable Flat-Rate Pricing
+        </div>
+        <div class="ribbon-item">
+          <div class="ribbon-icon">🌿</div>
+          Eco-Friendly Products
+        </div>
+        <div class="ribbon-item">
+          <div class="ribbon-icon">🏆</div>
+          100% Satisfaction Guarantee
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" aria-labelledby="services-heading">
+    <div class="container">
+      <div class="services-header">
+        <div class="section-tag">What We Do</div>
+        <h2 id="services-heading" class="section-title">Complete Cleaning Services<br />for Ottawa Homes &amp; Businesses</h2>
+        <p class="section-sub">
+          As an affordable cleaning company in Ottawa, we handle every surface: indoors and out. From window &amp; gutter cleaning in Ottawa to pressure washing and siding, one call covers it all.
+        </p>
+      </div>
+      <div class="services-grid">
+        <article class="service-card" id="service-window-cleaning">
+          <div class="service-img-wrapper">
+            <img class="service-img" src="Magic Pro Window Cleaning Images/2-0A4A0035.jpg" alt="Professional window cleaning service in Ottawa" loading="lazy" />
+          </div>
+          <div class="service-content">
+            <h3>Window Cleaning Ottawa</h3>
+            <p>Crystal-clear results using professional squeegee systems and streak-free solutions. We service homes, condos, and commercial buildings across Ottawa: inside and outside.</p>
+            <a href="/window-cleaning" id="window-cleaning-link" class="service-link">Learn More →</a>
+          </div>
+        </article>
+        <article class="service-card" id="service-gutter-cleaning">
+          <div class="service-img-wrapper">
+            <img class="service-img" src="Magic Pro Window Cleaning Images/6-0A4A0075.jpg" alt="Expert gutter cleaning for Ottawa homes" loading="lazy" />
+          </div>
+          <div class="service-content">
+            <h3>Gutter Cleaning Ottawa</h3>
+            <p>Clogged gutters cause water damage, foundation erosion, and roof leaks. Our thorough window and gutter cleaning in Ottawa keeps your drainage system clear and protected year-round.</p>
+            <a href="/gutter-cleaning" id="gutter-cleaning-link" class="service-link">Learn More →</a>
+          </div>
+        </article>
+        <article class="service-card" id="service-siding-cleaning">
+          <div class="service-img-wrapper">
+            <img class="service-img" src="Magic Pro Window Cleaning Images/4-0A4A0053.jpg" alt="Vinyl siding cleaning and restoration Ottawa" loading="lazy" />
+          </div>
+          <div class="service-content">
+            <h3>Siding Cleaning Ottawa</h3>
+            <p>Vinyl siding accumulates mold, dirt, and stains from Ottawa's harsh winters and humid summers. We restore your home's curb appeal safely, without damaging the surface.</p>
+            <a href="/siding-cleaning" id="siding-cleaning-link" class="service-link">Learn More →</a>
+          </div>
+        </article>
+        <article class="service-card" id="service-pressure-washing">
+          <div class="service-img-wrapper">
+            <img class="service-img" src="Magic Pro Window Cleaning Images/5-0A4A0070.jpg" alt="High-pressure washing for driveways and patios Ottawa" loading="lazy" />
+          </div>
+          <div class="service-content">
+            <h3>Pressure Washing Ottawa</h3>
+            <p>Driveways, decks, patios, and parking lots: our high-powered pressure washing eliminates years of grime from residential and commercial properties across the Ottawa-Gatineau region.</p>
+            <a href="/pressure-washing" id="pressure-washing-link" class="service-link">Learn More →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US + QUOTE FORM -->
+  <section id="why-us" aria-labelledby="why-us-heading">
+    <div class="container">
+      <div class="why-us-grid">
+        <!-- LEFT: Features -->
+        <div class="why-left">
+          <div class="section-tag dark">Why MagicPro</div>
+          <h2 id="why-us-heading" class="section-title light">Ottawa's Most Trusted<br />Cleaning Service</h2>
+          <p class="section-sub light">
+            Homeowners and businesses across Ottawa choose us because we show up on time, do the job right, and stand behind our work: every single time.
+          </p>
+          <div class="features-list" style="margin-top: 24px;">
+            <div class="feature-item">
+              <div class="feature-icon">👷</div>
+              <div class="feature-text">
+                <h4>Trained &amp; Vetted Professionals</h4>
+                <p>Every cleaner completes our rigorous in-house training program and passes a background check before stepping onto your property.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">📅</div>
+              <div class="feature-text">
+                <h4>We Show Up When We Say We Will</h4>
+                <p>Punctuality is our promise. We confirm your appointment in advance and keep you updated every step of the way.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">💸</div>
+              <div class="feature-text">
+                <h4>Transparent, Affordable Pricing</h4>
+                <p>No hidden fees, no surprises. As an affordable cleaning company in Ottawa, we offer competitive flat-rate quotes: free of charge.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">✅</div>
+              <div class="feature-text">
+                <h4>100% Satisfaction Guarantee</h4>
+                <p>Not happy? We'll come back and make it right: at no extra cost. Your satisfaction is not a bonus; it's our standard.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- RIGHT: Quote Form -->
+        <div class="why-right">
+          <div class="quote-box">
+            <div class="quote-box-title">Get Your Free Quote</div>
+            <div class="quote-box-sub">Takes less than 60 seconds. No obligation.</div>
+            <form class="quote-form" id="free-quote-form" action="/quote" method="POST" aria-label="Free quote form">
+              <input type="text" id="quote-name" name="name" placeholder="Your Full Name" required autocomplete="name" />
+              <input type="tel" id="quote-phone" name="phone" placeholder="Phone Number" required autocomplete="tel" />
+              <input type="email" id="quote-email" name="email" placeholder="Email Address" required autocomplete="email" />
+              <input type="text" id="quote-address" name="address" placeholder="Your Address in Ottawa" required />
+              <select id="quote-service" name="service" required aria-label="Select service">
+                <option value="" disabled selected>Select a Service</option>
+                <option value="window-cleaning">Window Cleaning</option>
+                <option value="gutter-cleaning">Gutter Cleaning</option>
+                <option value="siding-cleaning">Siding Cleaning</option>
+                <option value="pressure-washing">Pressure Washing</option>
+                <option value="multiple">Multiple Services</option>
+              </select>
+              <button type="submit" id="quote-submit" class="btn-primary">🎯 Request My Free Quote</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="how-it-works" aria-labelledby="how-works-heading">
+    <div class="container">
+      <div class="how-header">
+        <div class="section-tag">Simple Process</div>
+        <h2 id="how-works-heading" class="section-title">Book Your Cleaning in<br />3 Easy Steps</h2>
+        <p class="section-sub" style="margin:0 auto;">Getting professional cleaning service in Ottawa has never been easier. Here's how it works.</p>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card" id="step-1">
+          <div class="step-num">1</div>
+          <h3>Pick Your Service</h3>
+          <p>Choose from window cleaning, gutter cleaning, siding cleaning, or pressure washing: or bundle services for the best value.</p>
+        </div>
+        <div class="step-card" id="step-2">
+          <div class="step-num">2</div>
+          <h3>Set Your Schedule</h3>
+          <p>Pick a time that works for you. We offer flexible morning and afternoon slots, 7 days a week across Ottawa and surrounding areas.</p>
+        </div>
+        <div class="step-card" id="step-3">
+          <div class="step-num">3</div>
+          <h3>Sit Back &amp; Relax</h3>
+          <p>Our insured, trained cleaners arrive on time, complete the job professionally, and leave your property looking spotless.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEW SECTION 1: ANY PLACE -->
+  <section id="any-place" aria-labelledby="any-place-heading">
+    <div class="container">
+      <div class="any-place-grid">
+        <div class="any-place-text">
+          <div class="section-tag">Versatile Cleaning</div>
+          <h2 id="any-place-heading">We Will Make Absolutely Any Place Clean, Neat & Tidy.</h2>
+          <p>We’ll get your home sparkling: responsibly and sustainably. We use natural cleaning solutions and by-hand clean wherever possible for Hall of Fame results that are kind to the environment.</p>
+          <p>We’ll get your home sparkling: responsibly and sustainably. We use natural cleaning solutions and by-hand clean wherever possible for Hall of Fame results that are kind to the environment.</p>
+          <a href="/book" class="btn-primary" style="margin-top: 10px;">🎯 BOOK MY CLEANING</a>
+        </div>
+        <div class="places-list">
+          <div class="place-item"><span style="font-size: 1.4rem;">🏠</span> Houses</div>
+          <div class="place-item"><span style="font-size: 1.4rem;">🏢</span> Apartment</div>
+          <div class="place-item"><span style="font-size: 1.4rem;">🏘️</span> Townhouses</div>
+          <div class="place-item"><span style="font-size: 1.4rem;">🏰</span> Estates</div>
+          <div class="place-item"><span style="font-size: 1.4rem;">🏗️</span> Renovated buildings</div>
+          <div class="place-item"><span style="font-size: 1.4rem;">💼</span> Offices</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEW SECTION 2: HERE FOR YOU -->
+  <section id="here-for-you" aria-labelledby="hfy-heading">
+    <div class="container">
+      <div class="hfy-header">
+        <div class="section-tag dark" style="background: rgba(255,255,255,0.1); color: var(--cyan-bright);">WE HERE FOR YOU</div>
+        <h2 id="hfy-heading" class="section-title light">Ottawa Window Cleaning</h2>
+        <p class="section-sub light" style="margin: 0 auto;">We are a company dedicated to giving our customers back the time they deserve to enjoy the things they love.</p>
+      </div>
+      <div class="hfy-grid">
+        <div class="hfy-card">
+          <h4>Experienced Professional</h4>
+          <p>We offers a quality, reliable & professional service you can trust.</p>
+        </div>
+        <div class="hfy-card">
+          <h4>Free Online Quote</h4>
+          <p>Fill out our free quote form and we'll get back to you ASAP! Or just call us</p>
+        </div>
+        <div class="hfy-card">
+          <h4>Customer Focused</h4>
+          <p>We will provide experienced & well trained cleaning professionals to provide an excellent service & to achieve 100% client satisfaction.</p>
+        </div>
+        <div class="hfy-card">
+          <h4>We Are Committed</h4>
+          <p>We offer an operational excellence model, providing a structured & customised cleaning solution to mitigate risk & ensure quality at all times.</p>
+        </div>
+        <div class="hfy-card" style="grid-column: 1 / -1; max-width: 600px; margin: 0 auto; text-align: center;">
+          <h4>Regular & Monthly Cleaning</h4>
+          <p>We have a team of highly trained, reliable and friendly staff to offer brilliant cleaning results to suit your individual needs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SERVICE AREAS -->
+  <section id="service-areas" aria-labelledby="areas-heading">
+    <div class="container">
+      <div class="areas-header">
+        <div class="section-tag">Ottawa &amp; Beyond</div>
+        <h2 id="areas-heading" class="section-title">Cleaning Services Across All Ottawa Neighbourhoods</h2>
+        <p class="section-sub" style="margin:0 auto 32px;">We provide cleaning service in Ottawa and the surrounding region: from the west end to the east. If you're in Ottawa, we've got you covered.</p>
+      </div>
+      <div class="areas-grid" id="areas-list">
+        <div class="area-pill featured">Ottawa (Core)</div>
+        <div class="area-pill">Kanata</div>
+        <div class="area-pill">Barrhaven</div>
+        <div class="area-pill">Orleans</div>
+        <div class="area-pill">Gloucester</div>
+        <div class="area-pill">Nepean</div>
+        <div class="area-pill">Manotick</div>
+        <div class="area-pill">Rockland</div>
+        <div class="area-pill">Kemptville</div>
+        <div class="area-pill">Greely</div>
+        <div class="area-pill">Embrum</div>
+        <div class="area-pill">Casselman</div>
+        <div class="area-pill">Gloucester</div>
+        <div class="area-pill">Richmond</div>
+        <div class="area-pill">Carleton Place</div>
+        <div class="area-pill">Almonte</div>
+        <div class="area-pill">Arnprior</div>
+        <div class="area-pill">Carp &amp; West Ottawa</div>
+        <div class="area-pill">Dunrobin</div>
+        <div class="area-pill">Cumberland</div>
+      </div>
+      <p class="areas-note">Don't see your area? <strong>Call us</strong>: we likely service your neighbourhood too!</p>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" aria-labelledby="testimonials-heading">
+    <div class="container">
+      <div class="testimonials-header">
+        <div class="section-tag dark">Real Ottawa Reviews</div>
+        <h2 id="testimonials-heading" class="section-title light">Cleaning at Its Finest -<br />Hear What Ottawa Says</h2>
+      </div>
+      <div class="slider-header">
+        <div class="reviews-avg" aria-label="Overall rating" style="margin: 0;">
+          <div class="avg-score">5.0</div>
+          <div class="avg-right">
+            <div class="avg-stars">★★★★★</div>
+            <div class="avg-label">Based on 9,500+ Google Reviews</div>
+          </div>
+        </div>
+        <div class="slider-controls">
+          <button id="review-prev" class="slider-btn" aria-label="Previous Reviews">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+          </button>
+          <button id="review-next" class="slider-btn" aria-label="Next Reviews">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </button>
+        </div>
+      </div>
+      <div class="reviews-slider-wrapper">
+        <div class="reviews-track" id="reviews-track">
+        <div class="review-card" id="review-1">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Great guy, very friendly and professional: great prices too. Got it all done within a few hours, I thought it was going to be a whole day job. Will definitely use MagicPro again this year!"</p>
+          <div class="review-author">
+            <div class="author-avatar">L</div>
+            <div>
+              <div class="author-name">Liz A.</div>
+              <div class="author-location">Ottawa, ON</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card" id="review-2">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"He showed up on time and was done in record time. Took pictures of my gutters and suggested I get them cleaned. My windows are spotless. I would recommend MagicPro wholeheartedly!"</p>
+          <div class="review-author">
+            <div class="author-avatar">N</div>
+            <div>
+              <div class="author-name">Nicole Castiglia</div>
+              <div class="author-location">Kanata, Ottawa</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card" id="review-3">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Ayoub did such an amazing job and was so quick to fit us into his day! We will definitely use MagicPro again. The gutter cleaning was thorough and the price was very fair."</p>
+          <div class="review-author">
+            <div class="author-avatar">A</div>
+            <div>
+              <div class="author-name">Andrew Pearce</div>
+              <div class="author-location">Barrhaven, Ottawa</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card" id="review-4">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"I am very satisfied with MagicPro! They cleaned windows I hadn't been able to reach for years. Very professional, efficient, and thorough. I'd recommend them to anyone in Ottawa."</p>
+          <div class="review-author">
+            <div class="author-avatar">M</div>
+            <div>
+              <div class="author-name">Mike S.</div>
+              <div class="author-location">Orleans, Ottawa</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card" id="review-5">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Amazing job! Very friendly, free quote, and able to discuss pricing. Very quick and prompt. Great overall experience. Thank you Ayoub: see you in the spring for window cleaning!"</p>
+          <div class="review-author">
+            <div class="author-avatar">K</div>
+            <div>
+              <div class="author-name">Karen P.</div>
+              <div class="author-location">Nepean, Ottawa</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card" id="review-6">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"MagicPro cleaned our commercial building windows and the results were incredible. Professional, affordable, and on time. Highly recommend their cleaning service in Ottawa for businesses!"</p>
+          <div class="review-author">
+            <div class="author-avatar">R</div>
+            <div>
+              <div class="author-name">Robert M.</div>
+              <div class="author-location">Gloucester, Ottawa</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section id="gallery" aria-labelledby="gallery-heading">
+    <div class="container">
+      <div class="gallery-header">
+        <div class="section-tag">Our Past Projects</div>
+        <h2 id="gallery-heading" class="section-title">See the Magic in Action</h2>
+        <p class="section-sub" style="margin:0 auto;">Browse through our recent window, gutter, and exterior cleaning projects across Ottawa. Spotless results every time.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="Magic Pro Window Cleaning Images/12-0A4A0165.jpg" alt="Ottawa window cleaning project large" loading="lazy" />
+          <div class="gallery-overlay">
+            <h3>Pristine Windows</h3>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="Magic Pro Window Cleaning Images/13-0A4A0170.jpg" alt="Commercial window cleaning Ottawa" loading="lazy" />
+          <div class="gallery-overlay">
+            <h3>Commercial Clean</h3>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="Magic Pro Window Cleaning Images/15-0A4A0214.jpg" alt="Residential exterior washing" loading="lazy" />
+          <div class="gallery-overlay">
+            <h3>Exterior Wash</h3>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="Magic Pro Window Cleaning Images/16-0A4A0220.jpg" alt="Gutter cleaning results" loading="lazy" />
+          <div class="gallery-overlay">
+            <h3>Clear Gutters</h3>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="Magic Pro Window Cleaning Images/17-0A4A0247.jpg" alt="Sparkling clean glass detail" loading="lazy" />
+          <div class="gallery-overlay">
+            <h3>Crystal Clear</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section id="cta-banner" aria-label="Call to action">
+    <div class="container">
+      <div class="cta-inner">
+        <h2>Ready for a Spotless Home in <span>Ottawa</span>?</h2>
+        <p>Book your window cleaning, gutter cleaning, or pressure washing today: and experience why thousands of Ottawa homeowners trust MagicPro.</p>
+        <div class="cta-buttons">
+          <a href="/quote" id="cta-quote-btn" class="btn-primary">🎯 Get My Free Quote</a>
+          <a href="tel:+16132924294" id="cta-call-btn" class="btn-white">📞 +1 613-292-4294</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section id="faq" aria-labelledby="faq-heading">
+    <div class="container">
+      <div class="faq-header">
+        <div class="section-tag">FAQs</div>
+        <h2 id="faq-heading" class="section-title">Common Questions About Our<br />Cleaning Services in Ottawa</h2>
+      </div>
+      <div class="faq-grid" id="faq-list">
+
+        <div class="faq-item" id="faq-1">
+          <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+            What cleaning services does MagicPro offer in Ottawa?
+            <div class="faq-chevron">▼</div>
+          </div>
+          <div class="faq-a">
+            MagicPro offers a full range of exterior cleaning services in Ottawa, including professional window cleaning, gutter cleaning, vinyl siding cleaning, and high-pressure washing for driveways, decks, and parking lots. We serve both residential and commercial clients across Ottawa and the surrounding region.
+          </div>
+        </div>
+
+        <div class="faq-item" id="faq-2">
+          <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+            How much does window and gutter cleaning in Ottawa cost?
+            <div class="faq-chevron">▼</div>
+          </div>
+          <div class="faq-a">
+            Pricing depends on the size of your property and the services needed. MagicPro is known as an affordable cleaning company in Ottawa: we offer free, no-obligation quotes so you always know the price before we begin. Contact us or fill out our online form to get your quote within 24 hours.
+          </div>
+        </div>
+
+        <div class="faq-item" id="faq-3">
+          <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+            Is MagicPro insured and licensed to clean in Ottawa?
+            <div class="faq-chevron">▼</div>
+          </div>
+          <div class="faq-a">
+            Yes. MagicPro is fully licensed and insured for all cleaning services offered in Ottawa and the surrounding communities. Every team member is trained in-house and follows strict safety protocols, giving you complete peace of mind.
+          </div>
+        </div>
+
+        <div class="faq-item" id="faq-4">
+          <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+            Which Ottawa neighbourhoods do you serve?
+            <div class="faq-chevron">▼</div>
+          </div>
+          <div class="faq-a">
+            We provide cleaning service across all Ottawa neighbourhoods including Kanata, Barrhaven, Orleans, Gloucester, Nepean, Manotick, Rockland, Kemptville, Carleton Place, Almonte, Arnprior, Carp, Dunrobin, Embrum, Casselman, Cumberland, and more. Not sure if we cover your area? Give us a call!
+          </div>
+        </div>
+
+        <div class="faq-item" id="faq-5">
+          <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
+            How often should I have my gutters cleaned in Ottawa?
+            <div class="faq-chevron">▼</div>
+          </div>
+          <div class="faq-a">
+            Most Ottawa homeowners should have their gutters cleaned at least twice a year: once in the spring after tree pollen season and once in the fall after leaves have dropped. Properties surrounded by trees may need more frequent cleanings. Regular gutter maintenance prevents costly water damage, foundation erosion, and roof leaks.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MAP SECTION -->
+  <section id="map-section" aria-labelledby="map-heading">
+    <div class="container">
+      <div class="map-bento">
+        <!-- Content Side -->
+        <div class="map-bento-content">
+          <div><span class="map-badge">Locally Owned & Operated</span></div>
+          <h2 id="map-heading">Drop By Our Ottawa Headquarters</h2>
+          <p>Perfectly situated to dispatch our highly-trained exterior cleaning crews to any neighbourhood in Ottawa with rapid, same-day efficiency.</p>
+          
+          <div class="map-details">
+            <div class="map-row">
+              <div class="map-icon">📍</div>
+              <div class="map-row-text">
+                <h4>Office Location</h4>
+                <p>611-230 Woodridge Cres, Nepean,<br>Ottawa, ON K2B 8G2</p>
+              </div>
+            </div>
+            <div class="map-row">
+              <div class="map-icon">📞</div>
+              <div class="map-row-text">
+                <h4>Contact Us Directly</h4>
+                <p>+1 613-292-4294<br>info@magicpro.ca</p>
+              </div>
+            </div>
+          </div>
+          
+          <a href="https://maps.google.com/?q=Magicpro+Window+Cleaning+Ottawa" target="_blank" rel="noopener noreferrer" class="btn-primary" style="display: inline-flex; align-items: center; justify-content: center; gap: 10px;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg>
+            Get Live Directions
+          </a>
+        </div>
+        <!-- Map Side -->
+        <div class="map-iframe-wrapper">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d359342.1943003921!2d-75.8002569!3d45.28092855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0130a83e80db%3A0x5b28f421dfb51862!2sMagicpro%20Window%20Cleaning!5e0!3m2!1sen!2s!4v1776445515582!5m2!1sen!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="MagicPro Office Location"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <div class="nav-logo" style="margin-bottom: 24px; padding: 12px 18px; background: rgba(255,255,255,0.06); border-radius: 12px; display: inline-block;">
+            <img src="Magic-Pro-Logo-New-1024x665.png" alt="MagicPro Window Cleaning" style="height: 56px; width: auto; display: block;" />
+          </div>
+          <p class="footer-desc">
+            MagicPro is Ottawa's trusted cleaning service for windows, gutters, siding, and pressure washing. Locally owned, fully insured, and dedicated to your 100% satisfaction.
+          </p>
+          <div class="footer-socials">
+            <a href="#" class="social-btn" id="footer-fb" aria-label="Facebook">f</a>
+            <a href="#" class="social-btn" id="footer-tw" aria-label="Twitter">𝕏</a>
+            <a href="#" class="social-btn" id="footer-ig" aria-label="Instagram">◎</a>
+          </div>
+        </div>
+        <!-- Quick Links -->
+        <div>
+          <div class="footer-col-title">Quick Links</div>
+          <nav class="footer-links" aria-label="Footer navigation">
+            <a href="/" id="footer-home">Home</a>
+            <a href="/about" id="footer-about">About Us</a>
+            <a href="/gallery" id="footer-gallery">Gallery</a>
+            <a href="/reviews" id="footer-reviews">Reviews</a>
+            <a href="/contact" id="footer-contact">Contact</a>
+          </nav>
+        </div>
+        <!-- Services -->
+        <div>
+          <div class="footer-col-title">Our Services</div>
+          <nav class="footer-links" aria-label="Services navigation">
+            <a href="/window-cleaning" id="footer-window">Window Cleaning</a>
+            <a href="/gutter-cleaning" id="footer-gutter">Gutter Cleaning</a>
+            <a href="/siding-cleaning" id="footer-siding">Siding Cleaning</a>
+            <a href="/pressure-washing" id="footer-pressure">Pressure Washing</a>
+          </nav>
+        </div>
+        <!-- Contact -->
+        <div>
+          <div class="footer-col-title">Get In Touch</div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon">📍</div>
+            <div>611-230 Woodridge Cres, Nepean, Ottawa, ON K2B 8G2</div>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon">📞</div>
+            <div><a href="tel:+16132924294" id="footer-phone">+1 613-292-4294</a></div>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon">✉️</div>
+            <div><a href="mailto:info@magicpro.ca" id="footer-email">info@magicpro.ca</a></div>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon">🕐</div>
+            <div>Mon - Sun: 7:00 AM - 8:00 PM</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 MagicPro Window Cleaning. All rights reserved. | <a href="/sitemap.xml">Sitemap</a></p>
+        <div class="footer-legal">
+          <a href="/privacy-policy" id="footer-privacy">Privacy Policy</a>
+          <a href="/terms" id="footer-terms">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING CALL BUTTON (mobile) -->
+  <a href="tel:+16132924294" class="float-call" id="float-call-btn" aria-label="Call MagicPro">📞 Call Now</a>
+
+  <script>
+    // ── FAQ Accordion ──
+    document.querySelectorAll('.faq-q').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var item = this.closest('.faq-item');
+        var isOpen = item.classList.contains('open');
+        // Close all
+        document.querySelectorAll('.faq-item').forEach(function(i) {
+          i.classList.remove('open');
+          i.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
+        });
+        // Toggle clicked
+        if (!isOpen) {
+          item.classList.add('open');
+          this.setAttribute('aria-expanded', 'true');
+        }
+      });
+      // Keyboard support
+      btn.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          this.click();
+        }
+      });
+    });
+
+    // ── Navbar scroll shadow enhancement ──
+    window.addEventListener('scroll', function() {
+      var navbar = document.getElementById('navbar');
+      if (window.scrollY > 20) {
+        navbar.style.boxShadow = '0 4px 30px rgba(0,0,0,0.15)';
+      } else {
+        navbar.style.boxShadow = '0 2px 20px rgba(0,0,0,0.08)';
+      }
+    });
+
+    // ── Area pills hover ──
+    document.querySelectorAll('.area-pill:not(.featured)').forEach(function(pill) {
+      pill.addEventListener('mouseenter', function() {
+        this.classList.add('hovered');
+      });
+      pill.addEventListener('mouseleave', function() {
+        this.classList.remove('hovered');
+      });
+    });
+  
+  </script>
+
+  <!-- JUMP TO TOP -->
+  <button id="jump-top" aria-label="Jump to top of page" title="Jump to top">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+  <script>
+    // ── Reviews Slider ──
+    const track = document.getElementById('reviews-track');
+    const btnPrev = document.getElementById('review-prev');
+    const btnNext = document.getElementById('review-next');
+    if (track && btnPrev && btnNext) {
+      let currentIndex = 0;
+      
+      const updateSlider = () => {
+        const cards = track.querySelectorAll('.review-card');
+        if (!cards.length) return;
+        
+        // Items visible logic
+        let visible = 3;
+        if (window.innerWidth <= 900) visible = 2;
+        if (window.innerWidth <= 600) visible = 1;
+        
+        const cardWidth = cards[0].offsetWidth;
+        const gap = 24; 
+        const moveDist = cardWidth + gap;
+        
+        const maxIndex = Math.max(0, cards.length - visible);
+        currentIndex = Math.max(0, Math.min(currentIndex, maxIndex));
+        
+        track.style.transform = `translateX(-${currentIndex * moveDist}px)`;
+        
+        btnPrev.disabled = currentIndex === 0;
+        btnNext.disabled = currentIndex >= maxIndex;
+      };
+      
+      btnPrev.addEventListener('click', () => { currentIndex--; updateSlider(); });
+      btnNext.addEventListener('click', () => { currentIndex++; updateSlider(); });
+      window.addEventListener('resize', updateSlider);
+      updateSlider();
+    }
+
+    // ── Jump to Top ──
+    const jumpBtn = document.getElementById('jump-top');
+    if (jumpBtn) {
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 400) {
+          jumpBtn.classList.add('visible');
+        } else {
+          jumpBtn.classList.remove('visible');
+        }
+      });
+      jumpBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+  </script>
+</body>
+</html>
