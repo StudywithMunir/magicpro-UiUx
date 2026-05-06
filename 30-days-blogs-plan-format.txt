@@ -1,0 +1,192 @@
+===============================================
+30-DAY BLOG CONTENT PLAN - MC BEHAVIOURAL SERVICES
+===============================================
+Focus: Helpful, people-first content targeting all 6 services
+Location: Ottawa-focused
+Strategy: Use "autism services Ottawa" / "Ottawa autism services" as anchor text to boost homepage
+Services Covered: ABA Therapy | Social Skills Therapy | Art Therapy | Parent Coaching | Psychotherapy | Respite Services
+Keyword Mix: Short-tail | Medium-tail | Long-tail — all informational intent
+Note: Blog keywords intentionally avoid service page keywords to prevent cannibalization.
+===============================================
+
+--- ABA THERAPY (Days 1-5) ---
+
+DAY 1
+Blog Title: What Is Applied Behaviour Analysis and How Does It Work?
+Focus Keyword: applied behaviour analysis  [SHORT-TAIL]
+
+DAY 2
+Blog Title: How Behaviour Therapy Helps Children with Developmental Delays
+Focus Keyword: behaviour therapy children  [SHORT-TAIL]
+
+DAY 3
+Blog Title: In-Home Therapy vs Centre-Based Therapy: Which Should Ottawa Parents Choose?
+Focus Keyword: in-home vs centre-based autism therapy  [MEDIUM-TAIL]
+
+DAY 4
+Blog Title: Ontario Autism Program Explained: What Ottawa Families Need to Know
+Focus Keyword: Ontario Autism Program explained  [MEDIUM-TAIL]
+
+DAY 5
+Blog Title: How to Access OAP Funding for Your Child Step by Step in Ottawa
+Focus Keyword: how to access OAP funding for your child Ottawa  [LONG-TAIL]
+
+--- SOCIAL SKILLS THERAPY (Days 6-8) ---
+
+DAY 6
+Blog Title: Why Autistic Children Struggle with Social Skills and What Helps
+Focus Keyword: autism social skills  [SHORT-TAIL]
+
+DAY 7
+Blog Title: Social Skills Development in Children with Autism: What the Research Says
+Focus Keyword: social skills development autism  [MEDIUM-TAIL]
+
+DAY 8
+Blog Title: How to Help an Autistic Child Make Friends and Build Peer Connections
+Focus Keyword: how to help autistic child make friends  [LONG-TAIL]
+
+--- ART THERAPY (Days 9-12) ---
+
+DAY 9
+Blog Title: What Is Art Therapy and Who Does It Help?
+Focus Keyword: art therapy explained  [SHORT-TAIL]
+
+DAY 10
+Blog Title: How Creative Therapy Supports Emotional Development in Children
+Focus Keyword: creative therapy emotional development  [MEDIUM-TAIL]
+
+DAY 11
+Blog Title: Autism Meltdown vs Tantrum: What Every Parent Needs to Know
+Focus Keyword: autism meltdown vs tantrum  [MEDIUM-TAIL]
+
+DAY 12
+Blog Title: How to Help an Autistic Child Regulate Emotions Through Creative Activities at Home
+Focus Keyword: how to help autistic child regulate emotions at home  [LONG-TAIL]
+
+--- PARENT COACHING (Days 13-16) ---
+
+DAY 13
+Blog Title: What Does a BCBA Do and Why Does Your Child Need One?
+Focus Keyword: what does a BCBA do  [MEDIUM-TAIL]
+
+DAY 14
+Blog Title: Behaviour Management Strategies for Autistic Children at Home
+Focus Keyword: behaviour management autism  [SHORT-TAIL]
+
+DAY 15
+Blog Title: How to Create a Visual Schedule for Your Autistic Child Step by Step
+Focus Keyword: how to create a visual schedule for autistic child  [LONG-TAIL]
+
+DAY 16
+Blog Title: How Parent Training Improves Autism Outcomes at Home for Families
+Focus Keyword: parent training autism outcomes  [MEDIUM-TAIL]
+
+--- PSYCHOTHERAPY (Days 17-20) ---
+
+DAY 17
+Blog Title: Childhood Anxiety: Signs, Causes and When to Seek Professional Help
+Focus Keyword: childhood anxiety signs  [SHORT-TAIL]
+
+DAY 18
+Blog Title: Anxiety and Autism: Why They Occur Together and How to Manage Both
+Focus Keyword: anxiety and autism co-occurrence  [MEDIUM-TAIL]
+
+DAY 19
+Blog Title: When Should a Child See a Therapist? Signs Ottawa Parents Should Not Ignore
+Focus Keyword: when should a child see a therapist  [LONG-TAIL]
+
+DAY 20
+Blog Title: How Trauma-Informed Therapy Supports Children Who Have Experienced Difficult Events
+Focus Keyword: trauma-informed therapy for children Ottawa  [LONG-TAIL]
+
+--- RESPITE SERVICES (Days 21-24) ---
+
+DAY 21
+Blog Title: What Is Respite Care and Who Is It For?
+Focus Keyword: what is respite care  [SHORT-TAIL]
+
+DAY 22
+Blog Title: Caregiver Burnout in Autism Families: Signs and How to Recover
+Focus Keyword: caregiver burnout autism  [MEDIUM-TAIL]
+
+DAY 23
+Blog Title: How to Use OAP Funding to Access Respite and Caregiver Relief in Ontario
+Focus Keyword: OAP funding for respite care Ontario  [LONG-TAIL]
+
+DAY 24
+Blog Title: What Activities Happen During Respite Care for Children with Autism?
+Focus Keyword: what happens during respite care autism  [LONG-TAIL]
+
+--- MULTI-SERVICE / HOMEPAGE AUTHORITY (Days 25-30) ---
+
+DAY 25
+Blog Title: Autism Diagnosis in Children: Early Signs Every Parent Should Recognise
+Focus Keyword: autism diagnosis signs  [SHORT-TAIL]
+
+DAY 26
+Blog Title: Autism and Mental Health: Understanding the Connection in Children and Adults
+Focus Keyword: autism and mental health  [SHORT-TAIL]
+
+DAY 27
+Blog Title: How Autism Affects Siblings and the Whole Family Dynamic
+Focus Keyword: how autism affects siblings  [MEDIUM-TAIL]
+
+DAY 28
+Blog Title: How to Advocate for Your Autistic Child in an Ottawa School
+Focus Keyword: advocating for autistic child at school  [MEDIUM-TAIL]
+
+DAY 29
+Blog Title: Autism-Friendly Activities in Ottawa for Families in Every Season
+Focus Keyword: autism-friendly activities Ottawa  [MEDIUM-TAIL]
+
+DAY 30
+Blog Title: How to Choose the Right Autism Support Provider for Your Family in Ottawa
+Focus Keyword: how to choose autism support provider Ottawa  [LONG-TAIL]
+
+===============================================
+CONTENT STRATEGY NOTES
+===============================================
+
+1. KEYWORD MIX BREAKDOWN:
+   Short-tail  (1-2 words) — Days 1, 2, 9, 14, 17, 21, 25, 26 — broad, high volume
+   Medium-tail (3-4 words) — Days 3, 4, 7, 10, 11, 13, 16, 18, 22, 27, 28, 29 — balanced
+   Long-tail   (5+ words)  — Days 5, 8, 12, 15, 19, 20, 23, 24, 30 — low competition, high intent
+
+2. CANNIBALIZATION PREVENTION:
+   Service pages own: "ABA therapy Ottawa" | "social skills therapy" | "art therapy Ottawa"
+                      "parent coaching autism" | "psychotherapy Ottawa" | "respite services Ottawa"
+   Blogs target informational intent only — never the same keyword as a service page.
+
+3. ANCHOR TEXT STRATEGY:
+   - Use "autism services Ottawa" or "Ottawa autism services" naturally once per blog
+   - Link to homepage: https://mcbehaviourservices.com/
+   - Each blog also links to the relevant service page it supports
+
+4. AI OVERVIEW OPTIMIZATION:
+   - Answer the exact focus keyword question in the first 40-60 words
+   - Use question-based H2/H3 subheadings throughout
+   - Include bullet lists, numbered steps, and a FAQ section at end
+
+5. LOCAL OPTIMIZATION:
+   - Mention Ottawa neighbourhoods: Kanata, Orléans, Barrhaven, Nepean
+   - Reference local systems: OCDSB, OCSB, Ontario Autism Program (OAP)
+   - Include "Ottawa" in the H1 title or within the first 100 words
+
+6. CONTENT DEPTH:
+   - Target 1,400-1,600 words per blog
+   - Include at least 1 cited statistic per post
+   - Practical, actionable advice in every post
+   - Conversational yet clinically credible tone
+
+===============================================
+SERVICE PAGE KEYWORDS — DO NOT USE IN BLOGS
+===============================================
+
+ABA Therapy Ottawa:          "ABA therapy Ottawa"
+Social Skills Therapy:       "social skills therapy"
+Art Therapy Ottawa:          "art therapy Ottawa" / "art therapy"
+Parent Coaching Autism:      "parent coaching autism"
+Psychotherapy Ottawa:        "psychotherapy Ottawa"
+Respite Services Ottawa:     "respite services Ottawa"
+
+===============================================

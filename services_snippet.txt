@@ -1,0 +1,53 @@
+<section id="services" aria-labelledby="services-heading">
+    <div class="container">
+      <div class="services-header">
+        <div class="section-tag">What We Do</div>
+        <h2 id="services-heading" class="section-title">Complete Cleaning Services<br />for Ottawa Homes &amp; Businesses</h2>
+        <p class="section-sub">
+          As an affordable cleaning company in Ottawa, we handle every surface: indoors and out. From window &amp; gutter cleaning in Ottawa to pressure washing and siding, one call covers it all.
+        </p>
+      </div>
+      <div class="services-grid">
+        <article class="service-card" id="service-window-cleaning">
+          <div class="service-img-wrapper">
+            <img class="service-img" src="Magic Pro Window Cleaning Images/2-0A4A0035.jpg" alt="Professional window cleaning service in Ottawa" loading="lazy" />
+          </div>
+          <div class="service-content">
+            <h3>Window Cleaning Ottawa</h3>
+            <p>Crystal-clear results using professional squeegee systems and streak-free solutions. We service homes, condos, and commercial buildings across Ottawa: inside and outside.</p>
+            <a href="services/window-cleaning.html" id="window-cleaning-link" class="service-link">Learn More →</a>
+          </div>
+        </article>
+        <article class="service-card" id="service-gutter-cleaning">
+          <div class="service-img-wrapper">
+            <img class="service-img" src="Magic Pro Window Cleaning Images/6-0A4A0075.jpg" alt="Expert gutter cleaning for Ottawa homes" loading="lazy" />
+          </div>
+          <div class="service-content">
+            <h3>Gutter Cleaning Ottawa</h3>
+            <p>Clogged gutters cause water damage, foundation erosion, and roof leaks. Our thorough window and gutter cleaning in Ottawa keeps your drainage system clear and protected year-round.</p>
+            <a href="services/gutter-cleaning.html" id="gutter-cleaning-link" class="service-link">Learn More →</a>
+          </div>
+        </article>
+        <article class="service-card" id="service-siding-cleaning">
+          <div class="service-img-wrapper">
+            <img class="service-img" src="Magic Pro Window Cleaning Images/4-0A4A0053.jpg" alt="Vinyl siding cleaning and restoration Ottawa" loading="lazy" />
+          </div>
+          <div class="service-content">
+            <h3>Siding Cleaning Ottawa</h3>
+            <p>Vinyl siding accumulates mold, dirt, and stains from Ottawa's harsh winters and humid summers. We restore your home's curb appeal safely, without damaging the surface.</p>
+            <a href="services/siding-cleaning.html" id="siding-cleaning-link" class="service-link">Learn More →</a>
+          </div>
+        </article>
+        <article class="service-card" id="service-pressure-washing">
+          <div class="service-img-wrapper">
+            <img class="service-img" src="Magic Pro Window Cleaning Images/5-0A4A0070.jpg" alt="High-pressure washing for driveways and patios Ottawa" loading="lazy" />
+          </div>
+          <div class="service-content">
+            <h3>Pressure Washing Ottawa</h3>
+            <p>Driveways, decks, patios, and parking lots: our high-powered pressure washing eliminates years of grime from residential and commercial properties across the Ottawa-Gatineau region.</p>
+            <a href="services/pressure-washing.html" id="pressure-washing-link" class="service-link">Learn More →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
